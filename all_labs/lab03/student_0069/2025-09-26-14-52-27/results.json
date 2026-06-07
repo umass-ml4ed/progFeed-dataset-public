@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u2705 Test case 4 passed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of the `classify_by_angles` function has a mistake in the way you are checking for the conditions after verifying the validity of the triangle. Remember, the condition for classifying a triangle as right, obtuse, or acute should use the correct comparison of the squares of the sides. Specifically, recall that for a triangle to be classified as right, obtuse, or acute, you need to use the squares of the sides accurately in your comparisons, based on the Pythagorean theorem. Additionally, double-check the return string for the invalid case; it seems there's a typo. Ensure that it matches the exact output specified in the problem description.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 2/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n In your `classify_by_edges` function, you're checking if the triangle is valid using the condition `if a + b >= c`. However, the problem states that a triangle is invalid if `a + b` is less than or equal to `c`. You should revise the logic to properly check for the validity of the triangle before classifying it into equilateral, isosceles, or scalene. Additionally, ensure your return strings match exactly as specified in the problem description.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 8/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "6.22",
+    "score": 7.0
+}

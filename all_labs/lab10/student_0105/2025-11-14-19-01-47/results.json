@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "add_schedule test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing add_schedule ***\n\n\u2705 add_schedule passed all tests\n\n",
+            "number": "2"
+        },
+        {
+            "name": "__str__ test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing __str__ ***\n\n\u2705 add_schedule passed all tests\n\n",
+            "number": "3"
+        },
+        {
+            "name": "Thermostat constructor test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing Thermostat constructor ***\n\n\u2705 Thermostat constructor passed all tests\n\n",
+            "number": "1"
+        },
+        {
+            "name": "get_target_temperature test",
+            "score": 0.0,
+            "max_score": 6,
+            "status": "failed",
+            "output": "*** Testing get_target_temperature ***\n\n\nTest Failed: '11:02' != 78.66 : \u274c t.get_target_temperature(11:02) should return 78.66, yours is 11:02\n",
+            "number": "4"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 9.0
+}

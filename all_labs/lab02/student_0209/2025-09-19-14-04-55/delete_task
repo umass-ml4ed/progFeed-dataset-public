@@ -1,0 +1,13 @@
+# Author   : REDACTED
+# Emails   : REDACTED
+# Spire ID : REDACTED
+
+def delete_task(to_do_list, string):
+    to_do_list.remove(string)
+    N=len(to_do_list)
+    return "Task successfully deleted. " + str(N) + " tasks remaining."
+
+to_do_list = ['cics110 lab 3', 'zybook reading', 'do laundry']
+print(delete_task(to_do_list, 'do laundry'))
+
+

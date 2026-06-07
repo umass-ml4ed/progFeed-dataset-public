@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "average_prices() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing average_prices() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 average_prices seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "count_bigrams() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing count_bigrams() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 count_bigrams seems good\n\n",
+            "number": "3"
+        },
+        {
+            "name": "count_words() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_words() ***\n\n{}\n\u274c Test case 1 failed\n{'hello': 1}\n\u274c Test case 2 failed\n{'hello': 2}\n\u274c Test case 3 failed\n{'hi': 3}\n\u274c Test case 4 failed\n{'a': 3, 'b': 2}\n\u274c Test case 5 failed\n{'apple': 3, 'banana': 2, 'cherry': 1}\n\u274c Test case 6 failed\n{'one': 1, 'two': 2, 'three': 3}\n\u274c Test case 7 failed\n{'repeat': 3, 'once': 2}\n\u274c Test case 8 failed\n{'case': 2, 'Case': 1, 'CASE': 1}\n\u274c Test case 9 failed\n{'x': 3, 'y': 2, 'z': 4}\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n count_words((\"apple\", \"banana\", \"apple\", \"orange\", \"banana\", \"banana\"))  \nExpected output: {'apple': 2, 'banana': 3, 'orange': 1}\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "1.75",
+    "score": 10.0
+}

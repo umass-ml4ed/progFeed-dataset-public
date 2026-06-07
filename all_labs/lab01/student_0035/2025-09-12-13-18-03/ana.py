@@ -1,0 +1,3 @@
+a = str(input(" Enter a string :  "))
+n = int(input(" Enter an integer :  "))
+print((a * n) + str(n) + (a * n))

@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "funky test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing funky ***\n\n\u2705 the function funky() is recursive\n\nTest Failed: 259 != 27300 : \u274c funky(-500) should return 27300, yours is 259\n",
+            "number": "1"
+        },
+        {
+            "name": "max_recursive test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing max_recursive ***\n\n\u2705 the function max_recursive() is recursive\n\u2705 max_recursive passed all tests\n\n",
+            "number": "2"
+        },
+        {
+            "name": "permutations test",
+            "score": 0.0,
+            "max_score": 0,
+            "status": "failed",
+            "output": "*** Testing permutations ***\n\n\nTest Failed: 'str' object cannot be interpreted as an integer\n",
+            "number": "4"
+        },
+        {
+            "name": "sum_lists_recursive test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing sum_lists_recursive ***\n\n\nTest Failed: name 'lst' is not defined\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.01",
+    "score": 5.0
+}

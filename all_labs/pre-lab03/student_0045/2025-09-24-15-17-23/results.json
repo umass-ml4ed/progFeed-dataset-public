@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_length() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing classify_by_length() ***\n\n\nTest Failed: 'list_class' not found in {} : \u274c Missing list_class.py.\nThis could also happen if the file would crash when run.\nThis could happen if there is a call to input() (since the autograder doesn't send information that way anymore).\n",
+            "number": "2"
+        },
+        {
+            "name": "combine_lists() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing combine_lists() ***\n\n\nTest Failed: 'list_class' not found in {} : \u274c Missing list_class.py.\nThis could also happen if the file would crash when run.\nThis could happen if there is a call to input() (since the autograder doesn't send information that way anymore).\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

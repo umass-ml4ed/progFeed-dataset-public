@@ -1,0 +1,8 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+a = str(input("Enter something: "))
+n = int(input("Enter an integer: "))
+
+print((a*n) + str(n) + (a*n)) 

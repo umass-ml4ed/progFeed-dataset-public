@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "add_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing add_task() ***\n\n['Homework']\n\u274c Test case 1 failed\n['Homework', 'Buy groceries']\n\u274c Test case 2 failed\n['Homework', 'Buy groceries', '1234567890']\n\u274c Test case 3 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores']\n\u274c Test case 4 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask']\n\u274c Test case 5 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()']\n\u274c Test case 6 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces']\n\u274c Test case 7 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ']\n\u274c Test case 8 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 9 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n add_task([], \"Buy groceries\")\nExpected output: Task successfully added. 1 tasks remaining.\n\nTest Failed: False is not true : \u274c Return string does not match.\n",
+            "number": "1"
+        },
+        {
+            "name": "delete_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing delete_task() ***\n\n\nTest Failed: False is not true : \u274c Missing delete_task()\n",
+            "number": "2"
+        },
+        {
+            "name": "move_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing move_task() ***\n\n\nTest Failed: False is not true : \u274c Missing move_task()\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.98",
+    "score": 0.0
+}

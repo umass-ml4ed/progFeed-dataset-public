@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "average_scores() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing average_scores() ***\n\n\nTest Failed: local variable 'f_grade' referenced before assignment\n",
+            "number": "2"
+        },
+        {
+            "name": "get_names() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing get_names() ***\n\n\nTest Failed: unhashable type: 'list'\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

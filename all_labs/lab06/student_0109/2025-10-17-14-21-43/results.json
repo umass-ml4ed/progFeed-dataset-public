@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "average_scores() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing average_scores() ***\n\n\nTest Failed: False is not true : \u274c Missing average_scores()\n",
+            "number": "2"
+        },
+        {
+            "name": "get_names() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing get_names() ***\n\n\nTest Failed: list.append() takes exactly one argument (2 given)\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

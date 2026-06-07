@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "count_strings test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_strings ***\n\n\nTest Failed: False is not true : \u274c Missing count_strings()\n",
+            "number": "2"
+        },
+        {
+            "name": "is_prime() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_prime() ***\n\n\u2705 Test case 1 passed\n\u274c Test case 2 failed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of the `is_prime` function has a couple of issues. First, the while loop should iterate from 2 up to and including the integer square root of `n`. Right now, you are checking divisibility against `thing` separately inside the loop, which is unnecessary. Instead, just check if `n` is divisible by `i`, and ensure your loop condition is correctly set to include `sqrt(n)`. Also, remember that in your return statement at the end of the function, you are only returning `True` if no divisors are found, which is correct but make sure you reach that point of the code as intended.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 9/10 test cases passed.\n",
+            "number": "1"
+        },
+        {
+            "name": "is_zigzag test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_zigzag ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\ni: 1\nelement: 3\n\u274c Test case 4 failed\ni: 1\nelement: 1\ni: 2\nelement: 4\ni: 3\nelement: 4\n\u274c Test case 5 failed\ni: 1\nelement: 3\ni: 2\nelement: 2\ni: 3\nelement: 4\n\u274c Test case 6 failed\ni: 1\nelement: 5\ni: 2\nelement: 10\ni: 3\nelement: 5\n\u274c Test case 7 failed\ni: 1\nelement: 2\ni: 2\nelement: 3\n\u274c Test case 8 failed\ni: 1\nelement: 3\ni: 2\nelement: 2\n\u274c Test case 9 failed\ni: 1\nelement: 4\ni: 2\nelement: 2\ni: 3\nelement: 6\ni: 4\nelement: 3\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n It looks like your code is not currently checking whether each middle element is strictly greater than or strictly smaller than its neighbors, which is crucial for determining if the list follows a zigzag pattern. Make sure to implement the conditions mentioned in the problem description that define a zigzag pattern, as you're currently just iterating through the list and printing values without any actual comparisons.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "41.45",
+    "score": 0.0
+}

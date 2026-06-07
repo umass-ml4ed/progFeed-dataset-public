@@ -1,0 +1,7 @@
+  File "main.py", line 13
+    return f"Task successfully deleted. {task_count tasks remaining."
+           ^
+SyntaxError: f-string: expecting '}'
+
+
+** Process exited - Return Code: 1 **

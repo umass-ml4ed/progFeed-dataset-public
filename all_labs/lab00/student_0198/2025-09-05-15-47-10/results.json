@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "hello.py test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing hello.py ***\n\n\u2705 World successfully greeted, nicely done\n\n",
+            "number": "1.2"
+        },
+        {
+            "name": "hello.py author",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Looking for hello.py's author info ***\n\n\nTest Failed: None is not true : \u274c You did not include an Author comment on line 1 or it wasn't formatted correctly\n",
+            "number": "1.1"
+        },
+        {
+            "name": "hello.py exists",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Looking for hello.py ***\n\n\u2705 hello.py found\n\n",
+            "number": "1.0"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "visible",
+    "execution_time": "0.25",
+    "score": 10.0
+}

@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "average_scores() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing average_scores() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 average_scores seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "get_names() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing get_names() ***\n\nAlice Smith \u274c Test case 1 failed\nBob Jones Carol Jones \u274c Test case 2 failed\nJohn Doe John Lee \u274c Test case 3 failed\nAnn Clark Ann Davis Ben Clark Ben Davis \u274c Test case 4 failed\nX A X B Y A Y B Z A Z B \u274c Test case 5 failed\nTom Mickey Tom Donald Tom Goofy Jerry Mickey Jerry Donald Jerry Goofy \u274c Test case 6 failed\nLiam Adams Noah Adams Oliver Adams \u274c Test case 7 failed\nEva Brown Eva Clarkson Mia Brown Mia Clarkson \u274c Test case 8 failed\nLeo Ray Leo Sky Leo Ash Nina Ray Nina Sky Nina Ash \u274c Test case 9 failed\nHasnain Thota Hasnain Lan Neena Thota Neena Lan \u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n get_names(['Ari', 'Taylor'], ['Levine', 'Lopez', 'Khan', 'Wang'])\nExpected output: ['Ari Levine', 'Ari Lopez', 'Ari Khan', 'Ari Wang', 'Taylor Levine', 'Taylor Lopez', 'Taylor Khan', 'Taylor Wang']\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "2.42",
+    "score": 7.0
+}

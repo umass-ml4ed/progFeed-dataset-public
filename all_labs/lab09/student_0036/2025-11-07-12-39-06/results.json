@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "calc_avg_from_file() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing calc_avg_from_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n The function `calc_avg_from_file` is reading the grades but does not account for empty lines that might be in the file. When you call `text.split('\\n')`, any empty strings from these lines will also be included in the `grades` list. This can cause an error when trying to convert the empty strings to floats or may lead to an incorrect average calculation. Make sure to check and filter out any empty strings before performing calculations.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "print_stars_to_file() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing print_stars_to_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your code is very close, but pay attention to the logic in the loop for calculating spaces and stars. The number of spaces should decrease as you go down the lines, and the number of stars should increase in the odd-numbered sequence you mentioned; ensure your calculations reflect this pattern accurately. Specifically, check that you're printing the correct number of leading spaces and stars for each line according to the problem description.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "8.22",
+    "score": 0.0
+}

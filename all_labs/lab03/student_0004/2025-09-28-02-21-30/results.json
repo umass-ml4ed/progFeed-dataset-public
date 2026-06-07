@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\nTest Failed: False is not true : \u274c Missing classify_by_angles()\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\nTest Failed: False is not true : \u274c Missing classify_by_edges()\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\nTest Failed: False is not true : \u274c Missing is_edge_sorted()\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

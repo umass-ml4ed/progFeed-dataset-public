@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "average_prices() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing average_prices() ***\n\n\u2705 Test case 1 passed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n average_prices((('gouda cheese 1 lbs', 3.49), ('organic oyster mushroom 1 lbs', 6.89), ('toilet paper 1 roll', 3.99), ('apple juice 1 gallon', 7.99), ('gouda cheese 1 lbs', 4.29), ('toilet paper 1 roll', 4.19), ('talenti gelato vanilla', 5.59)))\n\nexpected output: {'gouda cheese 1 lbs': 3.89, 'organic oyster mushroom 1 lbs': 6.89, 'toilet paper 1 roll': 4.09, 'apple juice 1 gallon': 7.99, 'talenti gelato vanilla': 5.59}\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 1/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "count_bigrams() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_bigrams() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n count_bigrams(('this', 'is', 'a', 'test'))  \nExpected output: {('this', 'is'): 1, ('is', 'a'): 1, ('a', 'test'): 1}\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 2/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "count_words() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing count_words() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 count_words seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "6.92",
+    "score": 5.0
+}

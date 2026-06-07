@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "merge_dicts() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing merge_dicts() ***\n\n\nTest Failed: False is not true : \u274c Missing merge_dicts()\n",
+            "number": "2"
+        },
+        {
+            "name": "pyramid() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing pyramid() ***\n\n\nTest Failed: False is not true : \u274c Missing pyramid()\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

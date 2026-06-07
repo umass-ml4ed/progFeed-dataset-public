@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "add_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing add_task() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n add_task([], \"Finish homework\")\nExpected output: 'Task successfully added. 1 tasks remaining.'\n\nTest Failed: False is not true : \u274c Return string does not match.\n",
+            "number": "1"
+        },
+        {
+            "name": "delete_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing delete_task() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n delete_task([\"Buy groceries\", \"Finish homework\", \"Walk the dog\"], \"Finish homework\")  \nExpected output: 'Task deleted successfully. 2 tasks remaining.'\n\nTest Failed: False is not true : \u274c Return string does not match.\n",
+            "number": "2"
+        },
+        {
+            "name": "move_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing move_task() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n move_task(['task1', 'task2', 'task3'], 0, 2)\n\nExpected output: Task 'task1' successfully moved to index 2.\n\nTest Failed: False is not true : \u274c The list after moves does not match reference\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "visible",
+    "execution_time": "5.87",
+    "score": 0.0
+}

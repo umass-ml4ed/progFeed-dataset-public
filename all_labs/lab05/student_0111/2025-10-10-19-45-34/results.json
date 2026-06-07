@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "count_strings test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing count_strings ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 count_strings seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "is_prime() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_prime() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u274c Test case 5 failed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n It looks like your `return True` statement is inside the while loop, which causes the function to exit after checking only the first divisor. You want to ensure that the loop completes checking all potential divisors before concluding whether the number is prime or not. Consider moving the `return True` statement outside of the loop. This way, it only executes after all checks have been made.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 6/10 test cases passed.\n",
+            "number": "1"
+        },
+        {
+            "name": "is_zigzag test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_zigzag ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u274c Test case 4 failed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u274c Test case 7 failed\n\u2705 Test case 8 passed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your current implementation is not correctly iterating through the middle elements of the list, as specified in the problem description. Instead of using `range(lis[1], lis[-2])`, you should loop through the indices of the middle elements to compare each middle element against its neighbors. Also, ensure you are checking both conditions for zigzag (greater than or less than) correctly and returning `False` only if a violation is found, not prematurely.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 6/10 test cases passed.\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "6.16",
+    "score": 5.0
+}

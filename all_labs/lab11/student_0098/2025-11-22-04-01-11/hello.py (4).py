@@ -1,0 +1,42 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+
+def funky(n):
+    if n == 0 or n == 1:
+        return 1
+    elif n % 2 == 0:
+        return 2 * funky(n // 2)
+    else:
+        return 1 + 2 * funky(n + 1)
+
+def max_recursive(lst):
+    if not lst:
+        return 0
+    if len(lst) == 1:
+        return lst[0]
+    
+    max_rest = max_recursive(lst[1:])
+    
+    if lst[0] > max_rest:
+        return lst[0]
+    else:
+        return max_rest
+
+def sum_lists_recursive(lst1, lst2):
+    if not lst1:
+        return []
+    return [lst1[0] + lst2[0]] + sum_lists_recursive(lst1[1:], lst2[1:])
+
+def permutations(lst):
+    if len(lst) <= 1:
+        return [lst]
+    
+    perms = []
+    for i in range(len(lst)):
+        current = lst[i]
+        remaining = lst[:i] + lst[i+1:]
+        for p in permutations(remaining):
+            perms.append([current] + p)
+    return perms

@@ -1,0 +1,23 @@
+#Author: REDACTED
+#Email: REDACTED
+#Spire ID: REDACTED
+
+def max_recursive(lst):
+    if len(lst) == 1:
+        return lst[0]
+    rest_max = max_recursive(lst[1:])
+    return lst[0] if lst[0] > rest_max else rest_max
+    
+    
+print(max_recursive([1,2,3,4, 8, 100, 90]))
+
+def sum_lists_recursive(lst1, lst2):
+    if len(lst1)==0 and len(lst2)==0:
+        return 0
+    x = 0 
+    x = x+lst1[0]+lst2[0]
+    rest = sum_lists_recursive(lst1[1:], lst2[1:])
+    return x if len (lst1) == 1 and len(lst2)==1 else rest
+print(sum_lists_recursive([1, 2, 3], [4, 5, 6]))
+
+    

@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "calc_avg_from_file() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing calc_avg_from_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your function `calc_avg_from_file` currently calculates the average but does not return the computed average value. Make sure to include a return statement for the calculated average at the end of the function. This is crucial because the problem specifies that your function should return the average grade.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "print_stars_to_file() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing print_stars_to_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n The issue in your `print_stars_to_file` function is with how you're opening the file. In the line where you define the `file`, the placeholder `{n}` in the filename string is not being replaced with the actual value of `n`. You should use an f-string to correctly format the filename to meet the requirement of creating a file named `stars_n.txt`.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "5.43",
+    "score": 0.0
+}

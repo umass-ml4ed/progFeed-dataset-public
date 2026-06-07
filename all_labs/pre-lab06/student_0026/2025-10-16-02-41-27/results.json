@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "longest_zigzag_from_start test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing longest_zigzag_from_start ***\n\n\nTest Failed: 1 != 0 : \u274c Missing zigzag.py!\n",
+            "number": "1"
+        },
+        {
+            "name": "zigzag_lengths_from_all_starts() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing zigzag_lengths_from_all_starts ***\n\n\nTest Failed: 1 != 0 : \u274c Missing zigzag.py!\n",
+            "number": "5"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

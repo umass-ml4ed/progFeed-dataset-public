@@ -1,0 +1,36 @@
+# Author: REDACTED
+# Email: REDACTED
+# Spire ID: REDACTED
+
+class Thermostat:
+    def _init_(self, default_temp = 68):
+        self.default_temp = default_temp
+        self_schedules = {}
+
+    def add_schedule(self, time, temperature):
+        self.schedules[time] = temperature
+
+    def _str_(self):
+        result = f"Default temperature: {self.default_temp} degrees"
+        if not self.schedules:
+            return result
+        for time in sorted(self.schedules):
+            result += f"\n{time} {self.schedules[time]} degrees"
+
+        return result
+    
+    def get_target_temperature(self, query_time):
+        if not self.schedules:
+            return self.default_temp
+        
+        sorted_times = sorted(self.schedules)
+
+        if query_time < sorted_times[0]:
+            return self.default_temp
+        
+        for t in sorted_times:
+            if t <= query_time:
+                latest_time = t
+            else:
+                break
+        return self.schedules[latest_time]

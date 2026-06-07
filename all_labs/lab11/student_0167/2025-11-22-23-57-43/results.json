@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "funky test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing funky ***\n\n\u2705 the function funky() is recursive\n\u2705 funky passed all tests\n\n",
+            "number": "1"
+        },
+        {
+            "name": "max_recursive test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing max_recursive ***\n\n\u2705 the function max_recursive() is recursive\n\u2705 max_recursive passed all tests\n\n",
+            "number": "2"
+        },
+        {
+            "name": "permutations test",
+            "score": 0,
+            "max_score": 0,
+            "status": "passed",
+            "output": "*** Testing permutations ***\n\n\u2705 permutations passed all tests\n\n",
+            "number": "4"
+        },
+        {
+            "name": "sum_lists_recursive test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing sum_lists_recursive ***\n\n\u2705 the function sum_lists_recursive() is recursive\n\u2705 sum_lists_recursive passed all tests\n\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "1.99",
+    "score": 15
+}

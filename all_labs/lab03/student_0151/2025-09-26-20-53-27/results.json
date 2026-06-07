@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u274c Test case 4 failed\n\u2705 Test case 5 passed\n\u274c Test case 6 failed\n\u2705 Test case 7 passed\n\u274c Test case 8 failed\n\u2705 Test case 9 passed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of `classify_by_angles` mistakenly checks if the triangle is acute when it should be checking if it is obtuse. According to the problem description, if \\( c^2 < a^2 + b^2 \\), then the triangle should be classified as acute, not obtuse. Make sure to revisit the conditions for classifying the triangle based on the relationship of the sides.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 6/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your `classify_by_edges` function checks for triangle validity in the condition `if a + b >= c`, but according to the problem description, it should be `if a + b <= c`. Make sure to correct this condition to properly identify invalid triangles.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 2/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "3.73",
+    "score": 7.0
+}

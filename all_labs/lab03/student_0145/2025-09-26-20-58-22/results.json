@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u2705 Test case 9 passed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n The condition for checking if the triangle is valid is inappropriately placed in your function. According to the problem description, you should first check if the triangle is valid by verifying if the sum of the two shorter edges \\( a + b \\) is greater than the longest edge \\( c \\). If that condition fails, you should return 'invalid'. However, instead of checking the validity first, you're testing it after checking for angles. Make sure to follow the order of checks as specified in the problem statement.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 1/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 classify_by_edges seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "2.88",
+    "score": 14.0
+}

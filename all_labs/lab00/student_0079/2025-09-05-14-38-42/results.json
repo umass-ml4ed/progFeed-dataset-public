@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "hello.py test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing hello.py ***\n\n\nTest Failed: 'Hello, World' != 'Hello, World!'\n- Hello, World\n+ Hello, World!\n?             +\n : Output does not seem to be \"Hello, World!\", instead it is \"Hello, World\"\nYou can use the above text to identify what characters are different,\n\t what needs to be added, and what needs to be removed to make the program produce correct output.\n",
+            "number": "1.2"
+        },
+        {
+            "name": "hello.py author",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Looking for hello.py's author info ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 hello.py author information found\n\n",
+            "number": "1.1"
+        },
+        {
+            "name": "hello.py exists",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Looking for hello.py ***\n\n\u2705 hello.py found\n\n",
+            "number": "1.0"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "visible",
+    "execution_time": "0.02",
+    "score": 10.0
+}

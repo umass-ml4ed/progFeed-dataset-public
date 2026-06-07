@@ -1,0 +1,15 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+#is_prime
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    i = 2
+    while i <= int(n ** 0.5):
+        if n % i == 0:   
+            return False
+        i += 1
+    return True

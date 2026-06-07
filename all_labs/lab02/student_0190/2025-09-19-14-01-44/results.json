@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "add_task() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing add_task() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 add_task seems good\n\n",
+            "number": "1"
+        },
+        {
+            "name": "delete_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing delete_task() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n to_do_list = [\"Buy groceries\", \"Clean the house\", \"Walk the dog\"]\nresult = delete_task(to_do_list, \"Clean the house\")\nprint(result)  \n# Expected output: Task successfully deleted. 2 tasks remaining.\n\nTest Failed: False is not true : \u274c Return string does not match.\n",
+            "number": "2"
+        },
+        {
+            "name": "move_task() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing move_task() ***\n\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u2705 Test case 1 passed\n['Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', 'Homework', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u2705 Test case 2 passed\n['task_with_underscores', 'Buy groceries', '1234567890', 'MixedCASEtask', '!@#$%^&*()', 'Homework', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u2705 Test case 3 passed\n['task_with_underscores', 'Buy groceries', '1234567890', 'MixedCASEtask', 'Homework', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest', '!@#$%^&*()']\n\u2705 Test case 4 passed\n['task_with_underscores', 'Buy groceries', '1234567890', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'MixedCASEtask', 'Homework', '   leading spaces', 'trailing spaces   ', 'Do homework; then rest', '!@#$%^&*()']\n\u2705 Test case 5 passed\n['task_with_underscores', 'Buy groceries', '1234567890', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'MixedCASEtask', 'Homework', '   leading spaces', 'trailing spaces   ', 'Do homework; then rest', '!@#$%^&*()']\n\u2705 Test case 6 passed\n['Buy groceries', '1234567890', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'MixedCASEtask', 'Homework', '   leading spaces', 'trailing spaces   ', 'Do homework; then rest', '!@#$%^&*()', 'task_with_underscores']\n\u2705 Test case 7 passed\n['Buy groceries', '1234567890', '   leading spaces', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'MixedCASEtask', 'Homework', 'trailing spaces   ', 'Do homework; then rest', '!@#$%^&*()', 'task_with_underscores']\n\u2705 Test case 8 passed\n['Buy groceries', '1234567890', '   leading spaces', 'MixedCASEtask', 'Homework', 'trailing spaces   ', 'Do homework; then rest', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '!@#$%^&*()', 'task_with_underscores']\n\u2705 Test case 9 passed\n['Buy groceries', '1234567890', '   leading spaces', 'MixedCASEtask', '!@#$%^&*()', 'Homework', 'trailing spaces   ', 'Do homework; then rest', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'task_with_underscores']\n\u2705 Test case 10 passed\n\u2705 move_task seems good\n\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "visible",
+    "execution_time": "2.01",
+    "score": 10.0
+}

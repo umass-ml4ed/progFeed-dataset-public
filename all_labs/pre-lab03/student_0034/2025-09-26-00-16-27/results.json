@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_length() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing classify_by_length() ***\n\nempty\n\u274c Test case 1 failed\nodd_length\n\u274c Test case 2 failed\neven_length\n\u274c Test case 3 failed\nodd_length\n\u274c Test case 4 failed\neven_length\n\u274c Test case 5 failed\nodd_length\n\u274c Test case 6 failed\neven_length\n\u274c Test case 7 failed\nodd_length\n\u274c Test case 8 failed\neven_length\n\u274c Test case 9 failed\nodd_length\n\u274c Test case 10 failed\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "combine_lists() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing combine_lists() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

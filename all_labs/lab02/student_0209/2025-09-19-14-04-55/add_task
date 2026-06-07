@@ -1,0 +1,14 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+def add_task(to_do_list, string):
+    to_do_list.append(string)
+    N=len(to_do_list)
+    return "Task successfully added. " + str(N) + " tasks remaining."
+
+
+to_do_list = []
+print(add_task(to_do_list, 'zybook reading'))
+print(add_task(to_do_list, 'do laundry'))
+print(add_task(to_do_list, 'cics110 lab 3'))

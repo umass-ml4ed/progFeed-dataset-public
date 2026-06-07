@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "count_strings test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_strings ***\n\n\nTest Failed: 1 != 0 : \u274c Missing for_count.py!\n",
+            "number": "2"
+        },
+        {
+            "name": "is_prime() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing is_prime() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_prime seems good\n\n",
+            "number": "1"
+        },
+        {
+            "name": "is_zigzag test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_zigzag ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u274c Test case 4 failed\n\u2705 Test case 5 passed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u2705 Test case 8 passed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\nTest Failed: False is not true : \u274c Only 5/10 test cases passed.\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.01",
+    "score": 5.0
+}

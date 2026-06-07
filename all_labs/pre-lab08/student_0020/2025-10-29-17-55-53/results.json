@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "greet_user() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing greet_user() ***\n\n\nTest Failed: greet_user() takes 0 positional arguments but 2 were given\n",
+            "number": "5"
+        },
+        {
+            "name": "most_frequent_element test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing most_frequent_element() ***\n\n\nTest Failed: False is not true : \u274c Missing most_frequent_element()\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

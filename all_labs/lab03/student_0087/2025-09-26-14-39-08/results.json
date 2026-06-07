@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u2705 Test case 9 passed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your `classify_by_angles` function currently classifies triangles based on their types of edges (equilateral, isosceles, or scalene) instead of classifying them by angles as specified in the assignment problem description. In particular, after validating the triangle, you should check for right, obtuse, or acute classifications based on the lengths of the edges, not their equality.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 1/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of `classify_by_edges` currently checks for triangle types based on angles (i.e., right, obtuse, acute) instead of classifying by edge lengths as specified in the problem description. Make sure to follow the classification criteria related to edge lengths: equilateral, isosceles, and scalene.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 2/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "5.09",
+    "score": 7.0
+}

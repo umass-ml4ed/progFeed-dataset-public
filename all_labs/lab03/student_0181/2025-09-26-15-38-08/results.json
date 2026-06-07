@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u274c Test case 4 failed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n The issue in your `classify_by_angles` function lies in how you're determining the validity of the triangle. According to the problem description, before checking for right, obtuse, or acute classifications, you should ensure the sum of the two shorter edges \\(a + b\\) is greater than the longest edge \\(c\\). If it is not, you must return 'invalid'. So, make sure your conditions are clearly reflecting that logic. Additionally, there's a formatting error with the return value of ' acute', which has an extra space. Remember, the outputs must strictly match the specified strings in the assignment prompt.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 8/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u2705 Test case 1 passed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your `classify_by_edges` function is returning 'scalene' when the triangle is invalid. Remember that a triangle is considered valid only if the sum of the two shorter edges \\( a + b \\) is greater than the longest edge \\( c \\). Make sure to return 'invalid' first before checking for the other classifications.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 2/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "5.68",
+    "score": 7.0
+}

@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "add_task() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing add_task() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 add_task seems good\n\n",
+            "number": "1"
+        },
+        {
+            "name": "delete_task() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing delete_task() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 delete_task seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "move_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing move_task() ***\n\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'MixedCASEtask', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u274c Test case 1 failed\n['Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'Do homework; then rest']\n\u274c Test case 2 failed\n['1234567890', 'Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'trailing spaces   ', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 3 failed\n['1234567890', 'Homework', 'Buy groceries', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'task_with_underscores', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 4 failed\n['1234567890', 'Homework', '   leading spaces', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'task_with_underscores', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 5 failed\n['Homework', 'Homework', '   leading spaces', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'task_with_underscores', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 6 failed\n['Homework', 'Homework', '   leading spaces', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'Homework', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 7 failed\n['Homework', 'Homework', '   leading spaces', '1234567890', 'task_with_underscores', 'Homework', '!@#$%^&*()', '   leading spaces', 'Homework', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 8 failed\n['Homework', 'Homework', '   leading spaces', '1234567890', 'task_with_underscores', 'Homework', '1234567890', '   leading spaces', 'Homework', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 9 failed\n['Homework', 'Homework', '   leading spaces', 'Homework', 'task_with_underscores', 'Homework', '1234567890', '   leading spaces', 'Homework', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n move_task(['Task 1', 'Task 2', 'Task 3'], 1, 0)  \nTask 'Task 2' successfully moved to index 0\n\nTest Failed: False is not true : \u274c The list after moves does not match reference\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "1.57",
+    "score": 10.0
+}

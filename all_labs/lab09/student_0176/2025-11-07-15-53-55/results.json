@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "calc_avg_from_file() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing calc_avg_from_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n It looks like you are not accounting for the situation where the last line in the file might be empty (if there's a newline at the end). This could lead to a ValueError when you attempt to convert an empty string to a float. Make sure to handle such cases by checking if the line is non-empty before converting it! Also, remember to return the average value at the end of your function.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "print_stars_to_file() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing print_stars_to_file() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n It looks like there is an issue with how you are calculating the leading spaces and the number of stars in the `print_stars_to_file` function. Remember that for the first line, you should have `(n-1)` leading spaces and `1` star, and with each subsequent line, the number of stars increases by `2` while the leading spaces decrease. Ensure you follow the pattern as described in the problem statement for both spaces and stars.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "4.03",
+    "score": 0.0
+}

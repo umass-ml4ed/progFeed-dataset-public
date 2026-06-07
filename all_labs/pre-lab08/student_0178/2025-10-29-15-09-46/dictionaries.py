@@ -1,0 +1,44 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+def most_frequent_element(l):
+    l1=[]
+    l2={}
+    if l==[]:
+        return None
+    else:
+        for i in l:
+            if i not in l1:
+                l1.append(i)
+        for i in l1:
+            l2[i]=l.count(i)
+        l3=sorted(l2.items(), key=lambda item:item[1])
+        return l3[-1][0]
+
+  
+
+
+def greet_user(user, k,d1['language']='es', d1['age']=18):
+    if k not in user:
+        return f"User not found."
+    else:
+        d1=user[k]
+        name=d1["name"]
+        if d1["language"]=='es':
+            if d1["age"]<18:
+                    return f"¡Hola, pequeño/a {name}!"
+            else:
+                    return f"Hola, {name}!"
+        elif d1["language"]=='en':
+        
+                if d1["age"]<18:
+                    return f"Hey there, {name}!"
+                else:
+                    return f"Hello, {name}!"
+        elif d1["language"]=='fr':
+                if d1["age"]<18:
+                    return f"Salut, {name}!"
+                else:
+                    return f"Bonjour, {name}!"
+

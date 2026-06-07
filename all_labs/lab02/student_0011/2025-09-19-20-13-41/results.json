@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "add_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing add_task() ***\n\nTask succesfully added. 0 tasks remaining.\n\u274c Test case 1 failed\nTask succesfully added. 1 tasks remaining.\n\u274c Test case 2 failed\nTask succesfully added. 2 tasks remaining.\n\u274c Test case 3 failed\nTask succesfully added. 3 tasks remaining.\n\u274c Test case 4 failed\nTask succesfully added. 4 tasks remaining.\n\u274c Test case 5 failed\nTask succesfully added. 5 tasks remaining.\n\u274c Test case 6 failed\nTask succesfully added. 6 tasks remaining.\n\u274c Test case 7 failed\nTask succesfully added. 7 tasks remaining.\n\u274c Test case 8 failed\nTask succesfully added. 8 tasks remaining.\n\u274c Test case 9 failed\nTask succesfully added. 9 tasks remaining.\n\u274c Test case 10 failed\n\n\ud83e\udd16 AI Feedback for you:\n add_task([], \"Buy groceries\")  \nExpected output: Task successfully added. 1 tasks remaining.\n\nTest Failed: False is not true : \u274c Return string does not match.\n",
+            "number": "1"
+        },
+        {
+            "name": "delete_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing delete_task() ***\n\n\nTest Failed: False is not true : \u274c Missing delete_task()\n",
+            "number": "2"
+        },
+        {
+            "name": "move_task() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing move_task() ***\n\n\nTest Failed: False is not true : \u274c Missing move_task()\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "1.45",
+    "score": 0.0
+}

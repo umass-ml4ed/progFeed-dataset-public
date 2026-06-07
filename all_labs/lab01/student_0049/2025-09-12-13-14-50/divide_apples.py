@@ -1,0 +1,7 @@
+# Author: REDACTED
+# Email: REDACTED
+# Spire ID: REDACTED
+
+apples = int(input('Enter number of apples: '))
+baskets = int(input('Enter number of baskets: '))
+print(str(baskets)+ ' baskets can be divided as: \n' + str(apples//baskets) + ' apples per basket, and\n' + str(apples%baskets) + ' leftover apples.')

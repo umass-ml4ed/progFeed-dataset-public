@@ -1,0 +1,52 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+
+def max_recursive(lst): 
+    if not lst:
+        return 0 
+    if len(lst) == 1:
+        return lst[0]
+    else: 
+        maximum_for_rest_of_list = max_recursive(lst[1:])
+        return lst[0] if lst[0]>maximum_for_rest_of_list else maximum_for_rest_of_list
+    
+def sum_lists_recursive(lst1, lst2):
+    if not lst1:
+        return 0  
+    
+
+    if len(lst1) == 1:
+        return lst1[0] + lst2[0]
+    else: 
+        return sum_lists_recursive(lst1[1:], lst2[1:]) + lst1[0] + lst2[0]
+
+def funky(n: int):
+    if n == 0 or n == 1:
+        return 1
+    if n % 2 == 0: 
+        return (2) * (funky(n // 2))
+    else: 
+        return 1 + (2 * (funky(n + 1)))
+
+def permutations(lis: list):
+    if len(lis) == 1:
+        return lis 
+    retlis = []
+
+    for i in range(len(lis)):
+        front_item = lis[i]
+        remaining = [x for x in lis if x != lis[i]]
+
+    return [permutations(remaining)]
+#figure this out later 
+
+
+
+print(sum_lists_recursive([1, 2, 3], [4, 5, 6]))
+print(funky(2)) 
+print(funky(10))
+print(funky(50) )
+print(funky(-10))
+print(funky(-50))

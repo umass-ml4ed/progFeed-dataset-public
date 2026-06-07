@@ -1,0 +1,13 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+def move_task(to_do_list, from_index, to_index):
+    T = to_do_list.pop(from_index)
+    to_do_list.insert(to_index, T)
+    return "Task '" + str(T) + "' successfully moved to index " + str(to_index)
+
+to_do_list = ['zybook reading', 'do laundry', 'cics110 lab 3']
+print(move_task(to_do_list, 0, 2))
+
+print(to_do_list)

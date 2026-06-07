@@ -1,0 +1,26 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+class Thermostat:
+    def __init__(self, temp=68):
+        self.temp=temp
+        self.sche={}
+
+    def add_schedule(self, time, temp):
+        self.sche[time]=temp
+
+    def __str__(self):
+        result=f"Default temperature: {self.temp} degrees"
+        for time in sorted(self.sche):
+            result+=f"\n{time} {self.sche[time]} degrees"
+        return result
+    
+    def get_target_temperature(self, time):
+        total=None
+        for t in sorted(self.sche):
+            if t<=time:
+                total=t
+            else:
+                break
+        return self.sche[total]

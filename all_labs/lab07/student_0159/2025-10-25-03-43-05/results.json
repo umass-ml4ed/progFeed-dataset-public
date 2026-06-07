@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "average_prices() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing average_prices() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 average_prices seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "count_bigrams() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_bigrams() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u274c Test case 9 failed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of `count_bigrams` appears to follow the correct logic for counting bigrams, but remember to confirm that the input is indeed a tuple of strings, as specified in the problem description. If the input is not in this format, your code may not function as expected.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 9/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "count_words() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_words() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u274c Test case 9 failed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of `count_words` looks good overall, but remember that the problem statement specifies you should not modify the input words. Since you are using `word = word.lower()` inside the loop, make sure to double-check if it's necessary to modify the input like this for your specific requirements. It's important to stick to the original intent of the input as outlined in the problem description.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 9/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "4.12",
+    "score": 5.0
+}

@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "greet_user() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing greet_user() ***\n\n\nTest Failed: greet_user() missing 2 required positional arguments: 'default_lang' and 'default_age'\n",
+            "number": "5"
+        },
+        {
+            "name": "most_frequent_element test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing most_frequent_element() ***\n\n\nTest Failed: list index out of range\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

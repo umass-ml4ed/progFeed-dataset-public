@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "add_schedule test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing add_schedule ***\n\n\u2705 add_schedule passed all tests\n\n",
+            "number": "2"
+        },
+        {
+            "name": "__str__ test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing __str__ ***\n\n\nTest Failed: 'Defa[22 chars]grees00:05 78.11 degrees00:11 71.14 degrees00:[7774 chars]rees' != 'Defa[22 chars]grees\\n00:05 78.11 degrees\\n00:11 71.14 degree[8600 chars]rees'\nDiff is 16120 characters long. Set self.maxDiff to None to see it. : \u274c The returned string by your __str__ function does not match the expected. This could be due to either your __str__ function or adding_schedules implemented incorrectly\n",
+            "number": "3"
+        },
+        {
+            "name": "Thermostat constructor test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing Thermostat constructor ***\n\n\u2705 Thermostat constructor passed all tests\n\n",
+            "number": "1"
+        },
+        {
+            "name": "get_target_temperature test",
+            "score": 0.0,
+            "max_score": 6,
+            "status": "failed",
+            "output": "*** Testing get_target_temperature ***\n\n\nTest Failed: False != True : \u274c Your Thermostat class does not have a get_target_temperature function\n",
+            "number": "4"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.01",
+    "score": 4.0
+}

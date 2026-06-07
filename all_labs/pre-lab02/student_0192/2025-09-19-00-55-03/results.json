@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "ab.py test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing ab.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 String repetition and concatenation seem correct\n\n",
+            "number": "1"
+        },
+        {
+            "name": "ab_func() test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing ab_func() ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 String repetition, concatenation and return seem correct inside the function\n\n",
+            "number": "3"
+        },
+        {
+            "name": "list.py test",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed",
+            "output": "*** Testing list.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 List operations seem correct\n\n",
+            "number": "2"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.32",
+    "score": 15
+}

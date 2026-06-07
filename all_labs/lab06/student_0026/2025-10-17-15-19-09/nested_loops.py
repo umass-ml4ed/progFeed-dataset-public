@@ -1,0 +1,16 @@
+# Author: REDACTED
+# Email: REDACTED
+# Spire ID: REDACTED
+
+def get_names (first_names, last_names):
+    full_names=[]
+    for first in first_names:
+        for last in last_names:
+            full= first + ' ' +last
+            full_names.append(full)
+    return full_names
+
+first_names = ['Ari', 'Taylor']
+last_names = ['Levine', 'Lopez', 'Khan', 'Wang']
+
+print(get_names(first_names,last_names))

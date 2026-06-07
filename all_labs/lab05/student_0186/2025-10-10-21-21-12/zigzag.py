@@ -1,0 +1,10 @@
+def is_zigzag(lst):
+    if len(lst)< 3:
+        return True
+    for i in lst:
+        if not ((lst[i] > lst[i - 1] and lst[i] > lst[i + 1]) or 
+                (lst[i] < lst[i - 1] and lst[i] < lst[i + 1])):
+            return False
+
+    return True
+

@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "ab.py test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing ab.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 String repetition and concatenation seem correct\n\n",
+            "number": "2"
+        },
+        {
+            "name": "arithmetic.py test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing arithmetic.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\nTest Failed: None unexpectedly found in [9472.0, 1.7297297297297298, 1.0, 54.0, None] : \u274c Could not find numbers for last 5 lines\nFound the following last numbers per line: [9472.0, 1.7297297297297298, 1.0, 54.0, None]\n",
+            "number": "3"
+        },
+        {
+            "name": "echo.py test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing echo.py ***\n\n\nTest Failed: False is not true : \u274c echo.py doesn't have enough lines to possibly have Author, Email, and Spire ID\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "1.07",
+    "score": 7.0
+}

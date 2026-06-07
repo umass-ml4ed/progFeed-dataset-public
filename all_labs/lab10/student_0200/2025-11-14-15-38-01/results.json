@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "add_schedule test",
+            "score": 0.0,
+            "max_score": 2,
+            "status": "failed",
+            "output": "*** Testing add_schedule ***\n\n\nTest Failed: False != True : \u274c Your Thermostat class does not have an add_schedule function\n",
+            "number": "2"
+        },
+        {
+            "name": "__str__ test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing __str__ ***\n\n\nTest Failed: '<thermostat.Thermostat object at 0x7f5b3e44ca00>' != 'Default temperature: 68 degrees'\n- <thermostat.Thermostat object at 0x7f5b3e44ca00>\n+ Default temperature: 68 degrees\n : \u274c Expected return is Default temperature: 68 degrees, yours is <thermostat.Thermostat object at 0x7f5b3e44ca00>. Check if you may have a trailing newline or if your constructor has a default parameter value\n",
+            "number": "3"
+        },
+        {
+            "name": "Thermostat constructor test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing Thermostat constructor ***\n\n\u2705 Thermostat constructor passed all tests\n\n",
+            "number": "1"
+        },
+        {
+            "name": "get_target_temperature test",
+            "score": 0.0,
+            "max_score": 6,
+            "status": "failed",
+            "output": "*** Testing get_target_temperature ***\n\n\nTest Failed: False != True : \u274c Your Thermostat class does not have a get_target_temperature function\n",
+            "number": "4"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 2.0
+}

@@ -1,0 +1,21 @@
+# Author: REDACTED
+# Email: REDACTED
+# Spire ID: REDACTED
+def combine_lists(a,b):
+    len_a = len(a)
+    len_b = len(b)
+    a.insert(0, b[0])
+    a.append(b[-1])
+    len_new_a = len(a)
+    if (len_new_a & 1):
+        a.pop((len_new_a)//2)
+    return a
+def classify_by_length(a):
+    len_lst = len(a)
+    print(len_lst)
+    if(len_lst == 0):
+        return "empty"
+    elif(len_lst %2 == 1):
+        return "odd_length"
+    elif(len_lst %2 == 0):
+        return "even_length"

@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u274c Test case 9 failed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n The issue with your `classify_by_angles` function is that you are not checking the validity of the triangle before classifying it by angles. According to the problem description, you need to first validate that the sum of the two shorter edges \\( a + b \\) is greater than the longest edge \\( c \\). If this condition is not met, you should return 'invalid' before proceeding to classify the triangle as right, obtuse, or acute.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 9/10 test cases passed.\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\n\u2705 Test case 1 passed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u274c Test case 8 failed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your implementation of `classify_by_edges` checks for the triangle classification in the wrong order. You should first validate if the triangle is valid by checking if `a + b > c` before any classification checks. Currently, there is a check for invalidity after checking for equilateral triangles, which is not consistent with the problem's requirements. Remember, if the edges don't meet the triangle inequality condition, it should immediately return 'invalid'.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 7/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing is_edge_sorted() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 is_edge_sorted seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "5.45",
+    "score": 7.0
+}

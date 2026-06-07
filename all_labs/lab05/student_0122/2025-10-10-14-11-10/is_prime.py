@@ -1,0 +1,17 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+def is_prime(n)->int:
+    a = int((n**(1/2)))
+    i = 2
+    while i<=a:
+        if n%i == 0:
+            return False
+        i+=1
+    return True
+print(is_prime(15))
+print(is_prime(17))
+print(is_prime(25))    
+print(is_prime(26))   
+print(is_prime(97))

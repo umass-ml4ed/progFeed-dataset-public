@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "average_prices() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing average_prices() ***\n\n\nTest Failed: 1 != 0 : \u274c Missing dictionaries.py!\n",
+            "number": "2"
+        },
+        {
+            "name": "count_bigrams() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_bigrams() ***\n\n\nTest Failed: 1 != 0 : \u274c Missing dictionaries.py!\n",
+            "number": "3"
+        },
+        {
+            "name": "count_words() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "Test Failed: 1 != 0 : \u274c Missing dictionaries.py!\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

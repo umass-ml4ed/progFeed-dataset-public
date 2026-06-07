@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_angles() test",
+            "score": 0.0,
+            "max_score": 1,
+            "status": "failed",
+            "output": "*** Testing classify_by_angles() ***\n\nObtuse\n\nTest Failed: 'NoneType' object has no attribute 'lower'\n",
+            "number": "3"
+        },
+        {
+            "name": "classify_by_edges() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing classify_by_edges() ***\n\nEquilateral\n\nTest Failed: 'NoneType' object has no attribute 'lower'\n",
+            "number": "2"
+        },
+        {
+            "name": "is_edge_sorted() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing is_edge_sorted() ***\n\nTrue\n\u274c Test case 1 failed\nFalse\n\u274c Test case 2 failed\nTrue\n\u274c Test case 3 failed\nTrue\n\u274c Test case 4 failed\nTrue\n\u274c Test case 5 failed\nTrue\n\u274c Test case 6 failed\nTrue\n\u274c Test case 7 failed\nFalse\n\u274c Test case 8 failed\nTrue\n\u274c Test case 9 failed\nFalse\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n Your `is_edge_sorted` function is using print statements instead of returning a boolean value. The problem description specifies that you need to return `True` or `False` based on whether the edges are sorted, rather than printing them. Remember, you can directly return the comparison expression for a cleaner solution.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "2.25",
+    "score": 0.0
+}

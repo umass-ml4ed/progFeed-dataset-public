@@ -1,0 +1,10 @@
+# Author: REDACTED
+# Email: REDACTED
+# Spire ID: REDACTED
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+print("Addition:", a+b)
+print("Multiplication:",a*b)
+print("Division:",float(a/b))
+print("Interger Division:",a//b)
+print("Remainder:",a%b) 

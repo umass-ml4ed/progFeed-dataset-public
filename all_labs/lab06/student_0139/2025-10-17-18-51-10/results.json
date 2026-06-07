@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "average_scores() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing average_scores() ***\n\n100\n180\n270\n[90.0]\n\u2705 Test case 1 passed\n90.0\n162.0\n216.0\n[72.0]\n\u2705 Test case 2 passed\n100\n172.0\n217.0\n237.0\n[59.25]\n\u2705 Test case 3 passed\n100\n145.0\n145.0\n[48.333333333333336]\n90\n160\n205.0\n220.0\n[48.333333333333336, 55.0]\n\u2705 Test case 4 passed\n0\n0\n75\n[25.0]\n\u2705 Test case 5 passed\n0\n0.0\n0.0\n[0.0]\n90.0\n127.5\n[0.0, 63.75]\n\u2705 Test case 6 passed\n100\n200\n300\n[100.0]\n5.0\n15.0\n30.0\n[100.0, 10.0]\n\u2705 Test case 7 passed\n0\n30.0\n102.0\n152.0\n[38.0]\n\u2705 Test case 8 passed\n75.0\n135.0\n180.0\n[60.0]\n\u2705 Test case 9 passed\n90\n162.0\n214.5\n244.5\n244.5\n[48.9]\n100\n200\n300\n[48.9, 100.0]\n\u2705 Test case 10 passed\n\u2705 average_scores seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "get_names() test",
+            "score": 8,
+            "max_score": 8,
+            "status": "passed",
+            "output": "*** Testing get_names() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 get_names seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 15
+}

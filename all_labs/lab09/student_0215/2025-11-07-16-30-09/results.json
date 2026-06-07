@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "calc_avg_from_file() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing calc_avg_from_file() ***\n\n\u2705 Test case 1 passed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\n\n\n\ud83e\udd16\ud83e\udd16\ud83e\udd16 AI Feedback for you \ud83e\udd16\ud83e\udd16\ud83e\udd16:\n It looks like there is a small mistake in the way you are splitting the text to get the individual grades. In the problem description, it states that the numbers are separated by '\\n', but in your code, you are using '/n' instead of '\\n'. Please check that, as it will prevent you from correctly reading the grades and calculating the average.\n\n\n\n\n\nTest Failed: False is not true : \u274c Only 1/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "print_stars_to_file() test",
+            "score": 8,
+            "max_score": 8,
+            "status": "passed",
+            "output": "*** Testing print_stars_to_file() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\u2705 Test case 3 passed\n\u2705 Test case 4 passed\n\u2705 Test case 5 passed\n\u2705 Test case 6 passed\n\u2705 Test case 7 passed\n\u2705 Test case 8 passed\n\u2705 Test case 9 passed\n\u2705 Test case 10 passed\n\u2705 print_stars_to_file seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "3.41",
+    "score": 8.0
+}

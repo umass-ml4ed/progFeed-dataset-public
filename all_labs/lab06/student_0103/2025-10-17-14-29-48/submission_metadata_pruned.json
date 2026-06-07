@@ -1,0 +1,23 @@
+{
+  "id": 359240876,
+  "users": [
+    {
+      "id": "REDACTED",
+      "email": "REDACTED",
+      "name": "REDACTED",
+      "sid": "REDACTED",
+      "assignment": {
+        "release_date": "2025-10-17T04:00:00.000000-07:00",
+        "due_date": "2025-10-17T20:59:00.000000-07:00",
+        "late_due_date": "2025-10-21T20:59:00.000000-07:00"
+      },
+      "sections": [
+        "REDACTED"
+      ]
+    }
+  ],
+  "created_at": "2025-10-17T07:29:42.178037-07:00",
+  "assignment_id": null,
+  "submission_method": "upload",
+  "student_id": "student_0103"
+}

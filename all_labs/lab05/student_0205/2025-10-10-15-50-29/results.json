@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "count_strings test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing count_strings ***\n\n\nTest Failed: 1 != 0 : \u274c Missing for_count.py!\n",
+            "number": "2"
+        },
+        {
+            "name": "is_prime() test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_prime() ***\n\n\nTest Failed: False is not true : \u274c Missing is_prime()\n",
+            "number": "1"
+        },
+        {
+            "name": "is_zigzag test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing is_zigzag ***\n\n\nTest Failed: 1 != 0 : \u274c Missing zigzag.py!\n",
+            "number": "3"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

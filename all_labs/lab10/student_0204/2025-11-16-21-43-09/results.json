@@ -1,0 +1,41 @@
+{
+    "tests": [
+        {
+            "name": "add_schedule test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing add_schedule ***\n\n\u2705 add_schedule passed all tests\n\n",
+            "number": "2"
+        },
+        {
+            "name": "__str__ test",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "*** Testing __str__ ***\n\n\nTest Failed: 'Defa[14 chars]e: 68.0 degrees\\n00:00 50 degrees\\n08:00 60.4 [119 chars]es\\n' != 'Defa[14 chars]e: 68 degrees'\n- Default temperature: 68.0 degrees\n?                        --        -\n+ Default temperature: 68 degrees- 00:00 50 degrees\n- 08:00 60.4 degrees\n- 08:30 60 degrees\n- 09:30 58.2 degrees\n- 12:45 70 degrees\n- 19:35 75.5 degrees\n- 22:39 68.2 degrees\n- 23:59 80 degrees\n : \u274c Expected return is Default temperature: 68 degrees, yours is Default temperature: 68.0 degrees\n00:00 50 degrees\n08:00 60.4 degrees\n08:30 60 degrees\n09:30 58.2 degrees\n12:45 70 degrees\n19:35 75.5 degrees\n22:39 68.2 degrees\n23:59 80 degrees\n. Check if you may have a trailing newline or if your constructor has a default parameter value\n",
+            "number": "3"
+        },
+        {
+            "name": "Thermostat constructor test",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed",
+            "output": "*** Testing Thermostat constructor ***\n\n\u2705 Thermostat constructor passed all tests\n\n",
+            "number": "1"
+        },
+        {
+            "name": "get_target_temperature test",
+            "score": 0.0,
+            "max_score": 6,
+            "status": "failed",
+            "output": "*** Testing get_target_temperature ***\n\n\nTest Failed: 70 != 68 : \u274c t.get_target_temperature(19:30) should return 68, yours is 70\n",
+            "number": "4"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 4.0
+}

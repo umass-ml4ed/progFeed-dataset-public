@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "classify_by_length() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing classify_by_length() ***\n\n\nTest Failed: False is not true : \u274c Missing classify_by_length()\n",
+            "number": "2"
+        },
+        {
+            "name": "combine_lists() test",
+            "score": 0.0,
+            "max_score": 10,
+            "status": "failed",
+            "output": "*** Testing combine_lists() ***\n\n\u2705 Test case 1 passed\n\u2705 Test case 2 passed\n\nTest Failed: list index out of range\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

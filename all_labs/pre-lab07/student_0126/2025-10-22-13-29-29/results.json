@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "merge_dicts() test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing merge_dicts() ***\n\n{}\n\u274c Test case 1 failed\n{'a': 1, 'b': 2}\n\u274c Test case 2 failed\n{'x': 9}\n\u274c Test case 3 failed\n{'a': 1, 'b': 2, 'c': 3, 'd': 4}\n\u274c Test case 4 failed\n{'a': 8, 'b': 1, 'c': 2}\n\u274c Test case 5 failed\n{'x': 10, 'y': 7, 'z': 10, 'w': 1}\n\u274c Test case 6 failed\n{'p': 100, 'q': 500, 'r': 400}\n\u274c Test case 7 failed\n{'a': 0, 'b': 5, 'c': 10}\n\u274c Test case 8 failed\n{'a': 2, 'b': 2, 'c': 7}\n\u274c Test case 9 failed\n{'a': 1, 'b': 12, 'c': 23, 'd': 34, 'e': 40}\n\u274c Test case 10 failed\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "2"
+        },
+        {
+            "name": "pyramid() test",
+            "score": 0.0,
+            "max_score": 8,
+            "status": "failed",
+            "output": "*** Testing pyramid() ***\n\n\u274c Test case 1 failed\n\u274c Test case 2 failed\n\u274c Test case 3 failed\n\u274c Test case 4 failed\n\u274c Test case 5 failed\n\u274c Test case 6 failed\n\u274c Test case 7 failed\n\u274c Test case 8 failed\n\u274c Test case 9 failed\n\u274c Test case 10 failed\n\nTest Failed: False is not true : \u274c Only 0/10 test cases passed.\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 0.0
+}

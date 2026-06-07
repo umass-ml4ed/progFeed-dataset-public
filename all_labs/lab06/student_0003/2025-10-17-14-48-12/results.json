@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "average_scores() test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing average_scores() ***\n\n(100, 0)\n100\n(80, 0)\n80\n(90, 0)\n90\n\u2705 Test case 1 passed\n(100, 1)\n90.0\n(80, 1)\n72.0\n(60, 1)\n54.0\n\u2705 Test case 2 passed\n(100, 0)\n100\n(80, 1)\n72.0\n(60, 2)\n45.0\n(40, 3)\n20.0\n\u2705 Test case 3 passed\n(100, 0)\n100\n(50, 1)\n45.0\n(0, 2)\n0.0\n(90, 0)\n90\n(70, 0)\n70\n(50, 1)\n45.0\n(30, 3)\n15.0\n\u2705 Test case 4 passed\n(100, 4)\n0\n(50, 4)\n0\n(75, 0)\n75\n\u2705 Test case 5 passed\n(0, 0)\n0\n(0, 1)\n0.0\n(0, 3)\n0.0\n(100, 1)\n90.0\n(50, 2)\n37.5\n\u2705 Test case 6 passed\n(100, 0)\n100\n(100, 0)\n100\n(100, 0)\n100\n(10, 3)\n5.0\n(20, 3)\n10.0\n(30, 3)\n15.0\n\u2705 Test case 7 passed\n(0, 0)\n0\n(40, 2)\n30.0\n(80, 1)\n72.0\n(100, 3)\n50.0\n\u2705 Test case 8 passed\n(100, 2)\n75.0\n(80, 2)\n60.0\n(60, 2)\n45.0\n\u2705 Test case 9 passed\n(90, 0)\n90\n(80, 1)\n72.0\n(70, 2)\n52.5\n(60, 3)\n30.0\n(50, 4)\n0\n(100, 0)\n100\n(100, 0)\n100\n(100, 0)\n100\n\u2705 Test case 10 passed\n\u2705 average_scores seems good\n\n",
+            "number": "2"
+        },
+        {
+            "name": "get_names() test",
+            "score": 8,
+            "max_score": 8,
+            "status": "passed",
+            "output": "*** Testing get_names() ***\n\n['Alice Smith']\n\u2705 Test case 1 passed\n['Bob Jones', 'Carol Jones']\n\u2705 Test case 2 passed\n['John Doe', 'John Lee']\n\u2705 Test case 3 passed\n['Ann Clark', 'Ann Davis', 'Ben Clark', 'Ben Davis']\n\u2705 Test case 4 passed\n['X A', 'X B', 'Y A', 'Y B', 'Z A', 'Z B']\n\u2705 Test case 5 passed\n['Tom Mickey', 'Tom Donald', 'Tom Goofy', 'Jerry Mickey', 'Jerry Donald', 'Jerry Goofy']\n\u2705 Test case 6 passed\n['Liam Adams', 'Noah Adams', 'Oliver Adams']\n\u2705 Test case 7 passed\n['Eva Brown', 'Eva Clarkson', 'Mia Brown', 'Mia Clarkson']\n\u2705 Test case 8 passed\n['Leo Ray', 'Leo Sky', 'Leo Ash', 'Nina Ray', 'Nina Sky', 'Nina Ash']\n\u2705 Test case 9 passed\n['Hasnain Thota', 'Hasnain Lan', 'Neena Thota', 'Neena Lan']\n\u2705 Test case 10 passed\n\u2705 get_names seems good\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "0.00",
+    "score": 15
+}

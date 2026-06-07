@@ -1,0 +1,33 @@
+{
+    "tests": [
+        {
+            "name": "ana.py test",
+            "score": 7,
+            "max_score": 7,
+            "status": "passed",
+            "output": "*** Testing ana.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 String repetition and concatenation seem correct\n\n",
+            "number": "2"
+        },
+        {
+            "name": "divide_apples.py test",
+            "score": 0.0,
+            "max_score": 7,
+            "status": "failed",
+            "output": "*** Testing divide_apples.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\nTest Failed: 3 not greater than or equal to 4 : \u274c There should be at least 4 lines of *output* (ignoring the line(s) of input) generated.\nOnly see 3 lines\n",
+            "number": "3"
+        },
+        {
+            "name": "echo.py test",
+            "score": 1,
+            "max_score": 1,
+            "status": "passed",
+            "output": "*** Testing echo.py ***\n\n\u2705 Author information was included\n\u2705 Email information was included\n\u2705 Spire ID information was included\n\n\u2705 Echos heard clearly\n\n",
+            "number": "1"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "stdout_visibility": "hidden",
+    "execution_time": "2.04",
+    "score": 8.0
+}

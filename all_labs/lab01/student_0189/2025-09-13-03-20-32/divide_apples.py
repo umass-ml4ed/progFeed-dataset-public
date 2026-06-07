@@ -1,0 +1,12 @@
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+total_apples = 67
+num_baskets = 4
+apples_per_basket = total_apples // num_baskets
+leftover_apples = total_apples % num_baskets
+print("Enter total apples:", total_apples)
+print("Enter number of baskets:", num_baskets)
+print(total_apples, "apples for", num_baskets, "baskets can be divided as:")
+print(apples_per_basket, "apples per basket, and", leftover_apples, "leftover apples.")
