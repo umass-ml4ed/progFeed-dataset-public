@@ -1,0 +1,38 @@
+student_id,How many times have you encountered a generated feedback?,How helpful were the feedback?,How much did you learn from the course because of the feedback?,Any comments on how we can improve the feedback?
+student_0026,More than 10,4,4,
+student_0139,1 - 5,4,3,
+student_0196,1 - 5,5,5,
+student_0152,1 - 5,4,4,
+student_0017,1 - 5,4,3,
+student_0116,1 - 5,4,4,
+student_0140,6 - 10,5,5,
+student_0181,6 - 10,3,3,
+student_0167,More than 10,3,3,Nope
+student_0166,6 - 10,4,3,
+student_0002,More than 10,4,5,It's good like this
+student_0051,1 - 5,3,3,
+student_0188,1 - 5,5,5,None.
+student_0161,6 - 10,4,2,"Sometimes, the feedback is very basic and trivial suggestions. More specifics such as tracing back the error to the root line (instead of looking through the logs) may be beneficial."
+student_0130,6 - 10,3,3,
+student_0020,0,3,3,
+student_0025,0,3,3,
+student_0027,6 - 10,4,4,
+student_0182,0,5,5,
+student_0074,1 - 5,2,4,None
+student_0133,6 - 10,5,5,
+student_0154,0,1,1,
+student_0039,0,3,3,
+student_0095,6 - 10,4,3,
+student_0012,1 - 5,5,4,
+student_0117,6 - 10,3,2,More detailed feedback.
+student_0090,1 - 5,3,1,
+student_0004,1 - 5,4,4,None
+student_0021,1 - 5,4,4,"Nothing much to be changed, it's pretty solid "
+student_0037,1 - 5,3,2,
+student_0031,1 - 5,3,2,maybe add hints to fixing the errors that the feedback reports.
+student_0202,More than 10,4,3,None
+student_0089,0,1,1,
+student_0207,1 - 5,2,2,
+student_0103,6 - 10,2,2,More responses
+student_0001,1 - 5,3,2,Just seeing the difference between expected vs actual showed me what test cases weren't working and I was able to fix it from there
+student_0034,1 - 5,3,2,N/A

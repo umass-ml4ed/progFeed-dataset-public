@@ -13,6 +13,7 @@ from a classroom study run in an introductory CS course (CS110), Fall 2025.
 | `all_submissions_consolidated.csv` | One row per graded function/test per submission, with the assigned feedback condition and the feedback actually delivered. |
 | `autograders/` | Per-lab autograder code: tests, feedback-generation logic, LLM prompts, problem descriptions (`*_desc.txt`), and example submissions. |
 | `problems/` | Full problem statements as handed to students, one PDF per lab (`lab00.pdf`…`lab11.pdf`, `preLabNN.pdf`). |
+| `surveys/` | De-identified entry (`entry_survey.csv`, n=182) and exit (`exit_survey.csv`, n=37) survey responses, keyed by `student_id`. |
 | `DATA_DICTIONARY.md` | Field-level documentation for the CSV and the per-submission files. |
 | `LICENSE` | CC BY 4.0. |
 

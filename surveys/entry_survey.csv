@@ -1,0 +1,183 @@
+student_id,Age (in years),Which best describes your gender identity?,How many semesters have you been studying at UMass? (Including this semester),How do you feel about your existing programming skill at the beginning of this course? (Not necessarily in Python),How confident are you in solving mathematical problems?,Which high school courses have you taken that are related to computer programming? List all of them
+student_0103,18,male,1,"Some (variables, if else, loops etc.)",4,Introduction to Java
+student_0154,18,Non-binary,1,None,4,None
+student_0203,20,Male,5,"Some (variables, if else, loops etc.)",2,N/A
+student_0027,18,Male He/Him,1,"Fair (arrays, lists, functions etc.)",4,N/A (International Schooling)
+student_0108,19,Female,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer science P, AP Computer science A, and beginner courses"
+student_0204,18,Woman,1,"Advanced (recursion, files, long codes etc.)",4,"APCSP, Lead programmer for the FRC team (4 years)"
+student_0114,18,trans masc,1,"Fair (arrays, lists, functions etc.)",3,AP CS A
+student_0182,19,Male,1,"Some (variables, if else, loops etc.)",5,none
+student_0092,18,Cisgender Male,1,None,4,AP CSA
+student_0026,18,Female,1,None,3,none
+student_0070,22,she/her,1,"Some (variables, if else, loops etc.)",3,I have taken Intro to Visual Basic course from my previous University
+student_0022,18,Heterosexual male (straight pronouns he/him),1,"Fair (arrays, lists, functions etc.)",5,"Game Design CP2, App Design CP2, AP Computer Science Principles, Advanced Computer Science: Python Honors "
+student_0128,18,he/they,1,"Fair (arrays, lists, functions etc.)",5,One relatively unstructured Intro to Computer Science course
+student_0104,18,Male,1,None,5,None
+student_0001,18,Female,1,"Fair (arrays, lists, functions etc.)",4,Intro to programming and computer science 1 + 2
+student_0214,18,Male,1,None,4,none
+student_0100,18,Male,1,"Fair (arrays, lists, functions etc.)",3,none
+student_0098,18,Male,1,None,5,0
+student_0152,18,Female,1,"Some (variables, if else, loops etc.)",4,None
+student_0067,20,Male,1,"Fair (arrays, lists, functions etc.)",3,None
+student_0202,19,Male,1,"Fair (arrays, lists, functions etc.)",5,IB Computer Science
+student_0094,19,Male,3,None,4,None.
+student_0170,18,Male,1,"Advanced (recursion, files, long codes etc.)",4,"Python, APCSP, APCSA"
+student_0005,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science Principles, AP Computer Science A"
+student_0125,20,Woman,5,"Fair (arrays, lists, functions etc.)",4,n/a
+student_0021,18,Male,1,"Fair (arrays, lists, functions etc.)",4,Computer science in year 9 and 10. Python programming by IIT Kanpur in year 12. Java course in year 12. 
+student_0039,20,Male,5,"Some (variables, if else, loops etc.)",3,Calculus(?)
+student_0136,18,Cis Female,1,"Fair (arrays, lists, functions etc.)",4,"Intro to Python, AP CSP (5), AP CSA (4)"
+student_0057,19,female,3,"Some (variables, if else, loops etc.)",3,none
+student_0134,18,Male ,1,None,5,AP Calc BC
+student_0034,18,Non-binary,1,"Some (variables, if else, loops etc.)",4,N/A
+student_0140,18,Female,1,"Some (variables, if else, loops etc.)",4,AP CSA
+student_0011,18,Female ,1,None,3,None
+student_0051,20,Female,5,None,3,I took CS class in Vietnam so I'm not sure what courses I had.
+student_0118,18,Female,1,None,5,Computer Science A but I didn't learn anything
+student_0012,18,Female,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science A, Mobile Apps, Comp Sci 3"
+student_0195,18,Male,1,"Fair (arrays, lists, functions etc.)",4,A base level of JavaScript
+student_0199,18,Male,1,"Some (variables, if else, loops etc.)",5,None
+student_0049,18,Male,1,None,4,None
+student_0081,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science Principles, AP Computer Science A, Intermediate Data Programming (CSE 163))"
+student_0168,18,Female,1,"Some (variables, if else, loops etc.)",5,Intro to programming
+student_0064,18,Female/Woman,1,"Fair (arrays, lists, functions etc.)",3,"AP CompSci, AP Calc, Game Design I and II"
+student_0181,18,Female,1,"Some (variables, if else, loops etc.)",3,Python
+student_0201,18,Male,1,"Fair (arrays, lists, functions etc.)",4,AP Statistics
+student_0205,18,male,1,None,4,none
+student_0072,18,Male,1,"Some (variables, if else, loops etc.)",5,BC calc
+student_0119,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"Course in JAVA, Python, MySQl"
+student_0093,18,Female,1,"Some (variables, if else, loops etc.)",3,Beginner programming class and AP compsci principles
+student_0076,19,male,1,None,2,no course related to it
+student_0004,19,Male,1,"Some (variables, if else, loops etc.)",4,AP CS
+student_0002,18,Heterosexual human male,1,None,4,I've never taken any
+student_0031,18,male,1,None,3,intro to comp sci. 
+student_0008,18,Male,1,"Fair (arrays, lists, functions etc.)",4,None
+student_0169,18,Male,1,"Fair (arrays, lists, functions etc.)",4,Igcse computer science
+student_0009,19,Male,1,"Fair (arrays, lists, functions etc.)",5,None except math
+student_0038,18,Female,1,"Fair (arrays, lists, functions etc.)",2,"AP CSP, Advanced Web Development (2 years)"
+student_0044,19,Female,1,None,3,None
+student_0041,18,Female,1,"Fair (arrays, lists, functions etc.)",3,CSP and CSA
+student_0124,20,Female,1,"Advanced (recursion, files, long codes etc.)",5,I do not know
+student_0095,19,she/her,1,"Fair (arrays, lists, functions etc.)",5,AS computer science
+student_0043,18,male,1,None,5,none 
+student_0120,18,Male,1,"Some (variables, if else, loops etc.)",4,N/A
+student_0065,18,Female,1,None,4,N/A
+student_0196,18,Female,1,"Advanced (recursion, files, long codes etc.)",3,Ap CSA
+student_0047,18,female,1,"Fair (arrays, lists, functions etc.)",3,"AP computer science A, AP computer science principles"
+student_0020,18,Female,1,"Fair (arrays, lists, functions etc.)",5,Computer Science Discoveries (my high schools intro comp sci class)
+student_0061,19,Male,1,"Some (variables, if else, loops etc.)",4,Matlab
+student_0210,18,Male,1,"Advanced (recursion, files, long codes etc.)",4,HL computer science and GCSE computer science 
+student_0029,18,Female,1,"Fair (arrays, lists, functions etc.)",4,Ive taken college courses in comp sci and also have done some high school introductory python and java courses
+student_0151,18,male,1,"Advanced (recursion, files, long codes etc.)",5,"IB Higher Level CS, IB Higher Level AA Maths"
+student_0112,18,Female,8,"Fair (arrays, lists, functions etc.)",4,"python, c++ for beginners and some advance c++"
+student_0162,18,Straight,1,"Fair (arrays, lists, functions etc.)",4,"10th Grade IGCSE Computer Science , AS Level Computer Science , A Level Computer Science"
+student_0066,18,Male,2,"Some (variables, if else, loops etc.)",5,None CS related. 
+student_0173,18,Male,1,"Some (variables, if else, loops etc.)",4,"Robotics, AP Computer Science Principles"
+student_0035,18,Male,1,"Fair (arrays, lists, functions etc.)",4,IBDP Computer Science SL
+student_0068,27,Male,14,"Fair (arrays, lists, functions etc.)",4,None
+student_0055,21,Female,1,None,4,Up to Calc 3 and has Linear Algebra
+student_0200,18,Female,1,"Some (variables, if else, loops etc.)",3,AP CSP and AP CSA
+student_0074,18,heterosexual,1,"Advanced (recursion, files, long codes etc.)",5,I don’t have the course names in India we have just one class which covers everything.I can provide you with a link to the course syllabus 
+student_0150,20,Male,5,"Some (variables, if else, loops etc.)",5,Intro to Python
+student_0063,20,F,1,None,4,None
+student_0037,18,He/Him,1,"Fair (arrays, lists, functions etc.)",4,PLTW Computer Science 1
+student_0071,18,Female,1,None,4,N/A
+student_0208,19,she/her,1,"Fair (arrays, lists, functions etc.)",4,none
+student_0016,19,Female,3,None,4,None
+student_0188,18,cisgender female,1,"Advanced (recursion, files, long codes etc.)",4,IB CS HL
+student_0006,18,Male,1,"Fair (arrays, lists, functions etc.)",4,None
+student_0158,18,Male,1,"Fair (arrays, lists, functions etc.)",5,IB CS HL
+student_0110,18,Male,1,"Some (variables, if else, loops etc.)",4,None
+student_0177,18,Female,1,"Advanced (recursion, files, long codes etc.)",4,IB Computer Science HL
+student_0122,19,Male,3,"Fair (arrays, lists, functions etc.)",3,"Intro to comp sci, cyber security, game design"
+student_0209,2005,Female,1,None,4,Nothing
+student_0087,18,Male,1,"Some (variables, if else, loops etc.)",5,None
+student_0163,18,female ,1,"Fair (arrays, lists, functions etc.)",4,"im from india, we don't exactly have courses,  I've just done python for 2 years"
+student_0050,18,Male,1,"Fair (arrays, lists, functions etc.)",3,"Computer Science A, Computer Science Principles"
+student_0160,18,female,1,None,4,None
+student_0116,18,Male,1,"Fair (arrays, lists, functions etc.)",4,CSP
+student_0161,18,male,1,"Advanced (recursion, files, long codes etc.)",5,"AP Computer Science Principles, AP Computer Science A"
+student_0073,18,Heterosexual,1,None,3,N/A
+student_0060,18,Male,1,"Some (variables, if else, loops etc.)",4,N/A
+student_0117,18,Male,1,"Some (variables, if else, loops etc.)",3,None
+student_0192,18,Male,1,"Some (variables, if else, loops etc.)",4,Honors Intro to Computer Programming 1 & 2
+student_0148,18,male,1,"Fair (arrays, lists, functions etc.)",4,"AP Mobile Comp Sci Principles, AP Comp Sci, Web Design, "
+student_0084,18,Female,1,"Fair (arrays, lists, functions etc.)",4,AP Comp Sci Principles
+student_0052,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP CSP, AP CSA"
+student_0184,18,Female,1,None,3,"None (Unless math counts, AP Calculus AB)"
+student_0082,18,woman,1,None,4,none
+student_0102,18,Male,1,"Some (variables, if else, loops etc.)",4,Intro to computer science
+student_0105,18,male,1,"Some (variables, if else, loops etc.)",3,AP CSP
+student_0189,18,female,1,"Fair (arrays, lists, functions etc.)",5,"calculus, precalc"
+student_0069,19,Female ,1,"Some (variables, if else, loops etc.)",3,"CS A, Calc I, STATS"
+student_0024,18,Male,1,"Fair (arrays, lists, functions etc.)",3,IB computer Science HL and IGCSE computer science
+student_0185,18,Female,1,"Some (variables, if else, loops etc.)",4,AP Physics 1 and 2
+student_0178,19,Indian,1,"Advanced (recursion, files, long codes etc.)",4,Computer Science- CBSE
+student_0155,19,0987t,3,"Some (variables, if else, loops etc.)",5,None
+student_0132,18,Male,1,"Advanced (recursion, files, long codes etc.)",4,AP Computer Science Principles
+student_0075,21,Male,7,"Advanced (recursion, files, long codes etc.)",5,"AP Compsci, AP Data Structures, Web Design "
+student_0115,19,Female,1,None,4,I did not take any courses that relate to cs
+student_0215,19,male,3,None,4,none
+student_0174,19,Female,3,"Some (variables, if else, loops etc.)",4,None
+student_0007,18,Male,1,None,5,None
+student_0030,18,Male ,1,"Fair (arrays, lists, functions etc.)",4,"AP CSA, dicscrete math, analysis of algorithms"
+student_0130,18,Female,3,None,3,None 
+student_0147,18,Male,1,"Fair (arrays, lists, functions etc.)",3,AP Comp Sci
+student_0212,18,Female,1,"Fair (arrays, lists, functions etc.)",3,"Computer Science Principles, AP Computer Science Principles"
+student_0106,18,Male,1,"Some (variables, if else, loops etc.)",4,"one in programming C++ (I forgot the exact name of the class), and principles in computer science (Java)"
+student_0028,20,Male ,5,"Some (variables, if else, loops etc.)",3,None
+student_0129,18,Male,1,"Fair (arrays, lists, functions etc.)",4,None.
+student_0123,23,Male,1,"Fair (arrays, lists, functions etc.)",3,None
+student_0045,18,Female,1,"Some (variables, if else, loops etc.)",4,Introduction to Programming
+student_0078,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science Principles, Python Programming 1 & 2"
+student_0046,19,Female ,1,"Fair (arrays, lists, functions etc.)",5,Ap computer science a
+student_0054,2005,Male,1,"Advanced (recursion, files, long codes etc.)",5,"I did not graduate from a high school but I took ged test. However, I have relevant certificates and read several books : python specialization(UMichigan, Coursera), math for machine learning and data science (Deeplearning.AI, Coursera), machine learning specialization (Stanford university & Deeplearning.AI, Coursera), deep learning specialization(Deeplearning.AI, Coursera) "
+student_0019,18,Male,1,"Some (variables, if else, loops etc.)",3,None
+student_0180,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science A, Advanced Programing, Data Structures and Algorithms, Cyber Oracle and SQL"
+student_0083,19,Male,1,"Fair (arrays, lists, functions etc.)",4,Computer Science Principles
+student_0090,18,Male,1,"Fair (arrays, lists, functions etc.)",4,"AP CSA, AP CSP, Honors Computer Design and Animation"
+student_0048,20,Male,1,"Some (variables, if else, loops etc.)",5,N/A
+student_0033,18,Female,1,"Advanced (recursion, files, long codes etc.)",4,"Computer Science, Mathematics, Typography and computer ApplicationC"
+student_0126,19,Male,3,"Fair (arrays, lists, functions etc.)",5,AP Computer Science Principles
+student_0107,19,he/hi ,3,"Fair (arrays, lists, functions etc.)",4,"Ap compsci (python), intro to compsci (java script) "
+student_0014,20,Male,3,None,4,Intro to comp sci
+student_0023,18,Male,1,"Fair (arrays, lists, functions etc.)",4,N/a
+student_0166,18,Female,1,"Some (variables, if else, loops etc.)",4,"Information, Communications, and Technology"
+student_0145,18,Male ,1,"Some (variables, if else, loops etc.)",4,"AP Computer Science A, Math up to AP Calculus, AP Statistcs"
+student_0144,19,Male,1,None,5,none
+student_0017,19,Male,3,None,5,Basic computing classes teaching like what floppy disk is or sumin nothing close to codding maybe making a website
+student_0197,18,Questioning,1,"Some (variables, if else, loops etc.)",4,Intro to programming
+student_0135,18,Male,1,"Some (variables, if else, loops etc.)",4,"Introduction to Java, AP CSA, PLTW CS Essentials, Gaming Animation, UB ECE Intro to Esports"
+student_0133,21,Female,5,"Some (variables, if else, loops etc.)",3,None
+student_0193,18,Female,1,"Fair (arrays, lists, functions etc.)",5,"My high school didn't offer computer science courses. I took programming courses from Udemy, EdX, and other such websites."
+student_0127,19,Male,1,"Some (variables, if else, loops etc.)",4,One game design class
+student_0059,19,Female,3,None,5,None
+student_0183,18,male,1,None,4,None
+student_0121,19,Woman,1,"Fair (arrays, lists, functions etc.)",4,"AP Computer Science Principles, AP Computer Science A, C++, Computer Design and Code"
+student_0032,18,male,1,"Some (variables, if else, loops etc.)",4,"Intro to CS, AP CSP"
+student_0186,18,Male,1,"Fair (arrays, lists, functions etc.)",3,IB Computer Science HL and IB Maths AI HL
+student_0025,20,Male,4,"Some (variables, if else, loops etc.)",4,None
+student_0080,20,Bigender,3,"Some (variables, if else, loops etc.)",3,ARDUNIO lessons
+student_0211,18,Male,1,"Fair (arrays, lists, functions etc.)",3,"Intro to Comp ScI, Intro software eng., Intermediate software eng., Ap Comp Sci A"
+student_0077,19,M,3,"Advanced (recursion, files, long codes etc.)",5,AP CS
+student_0207,20,Female ,5,"Fair (arrays, lists, functions etc.)",3,none
+student_0013,18,Male,1,None,5,none
+student_0099,20,Boy,5,"Some (variables, if else, loops etc.)",5,AP Computer science principles I think
+student_0165,20,Male He/Him,3,"Some (variables, if else, loops etc.)",3,none
+student_0138,19,female,3,"Some (variables, if else, loops etc.)",2,AP Computer Science Principes
+student_0159,19,Male,3,"Fair (arrays, lists, functions etc.)",4,None
+student_0137,18,Female/woman,1,None,4,I have taken Information and communication technology in Igcse and digital society in Ibdp 
+student_0086,19,Women,3,"Some (variables, if else, loops etc.)",3,"Intro to computer science principles, Information technology and its applications, HTML, Programming and Design with Python"
+student_0153,18,Masculine,1,"Fair (arrays, lists, functions etc.)",3,"Arduino programming, SQL and Basic Phython"
+student_0040,18,Female,1,"Some (variables, if else, loops etc.)",3,"None, but I have done a lot of engineering and working with computers. I have done a few extracurricular courses on programming. "
+student_0206,18,No answer,1,"Fair (arrays, lists, functions etc.)",2,An electronics class and a physics class
+student_0003,18,MAle,1,"Fair (arrays, lists, functions etc.)",4,Java OOP
+student_0113,18,Male (he/him),1,"Fair (arrays, lists, functions etc.)",4,"AP computer Science Principles, Computer Programming 1, Computer Programming 2"
+student_0079,19,Male,1,"Some (variables, if else, loops etc.)",3,CSA
+student_0142,20,female,1,"Some (variables, if else, loops etc.)",4,Mathematic
+student_0156,19,Male,3,"Some (variables, if else, loops etc.)",5,AP Computer Science Principles
+student_0157,18,Straight Male,1,"Advanced (recursion, files, long codes etc.)",5,"Computer Science, learning about solving math with python. I mainly self taught Python, I'm at OOP Level"
+student_0062,18,Cisgender Male,1,"Fair (arrays, lists, functions etc.)",3,AP Comp Sci Principles
+student_0101,18,male,1,"Some (variables, if else, loops etc.)",5,Intro to Python
+student_0176,18,Female,1,"Fair (arrays, lists, functions etc.)",4,IB Computer Science HL
+student_0194,19,Male,1,"Fair (arrays, lists, functions etc.)",5,"None, but I took an online AP cs course in Java, but didn't take exam"
