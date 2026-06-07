@@ -1,0 +1,8 @@
+In lecture 13, you have learned Python’s dictionary data type. A dictionary can contain any number of key-value pairs (i.e. entries), and it is used to represent associate relationships. You can create a dictionary using curly brackets {}, or using the dict() function.
+A dictionary is a very versatile data type for many applications. Counting the frequency of words is a classic example. Let’s say we want to find out the frequencies of words that appear in a textbook, or in Internet search terms. The input is a tuple that contains many individual words. Our goal is to create a dictionary that stores each unique word, and the number of times each word has occurred. So for each entry, the key is a string (a word) and the value is an integer (the number of occurrences). 
+Create a new file in VSCode and save/name it dictionaries.py. Your first exercise is to write a function called count_words which takes a tuple of words as input, and returns a dictionary where the key of each entry is a unique word from the input, and the value is the number of times that word appears in the input. Specifically, your function should:
+Take a tuple of strings as the input parameter. You may assume the strings are all lower-case.
+Create an empty dictionary to begin with, for example by some_dict = {}
+Loop over the input tuple. For each string in the tuple, if it doesn’t exist in the dictionary yet (you may use the in operator to check if a key exists in the dictionary), add it to the dictionary with a value of 1 (i.e. first occurrence). If it already exists, increment the value by 1.
+After the loop, return the dictionary.
+Do NOT ask the user for any input. Do NOT print anything in your function.

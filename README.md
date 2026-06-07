@@ -11,8 +11,17 @@ from a classroom study run in an introductory CS course (CS110), Fall 2025.
 |------|-------------|
 | `all_labs/` | Per-submission student code and autograder results, organized by lab and anonymized student ID. |
 | `all_submissions_consolidated.csv` | One row per graded function/test per submission, with the assigned feedback condition and the feedback actually delivered. |
+| `autograders/` | Per-lab autograder code: tests, feedback-generation logic, LLM prompts, problem descriptions (`*_desc.txt`), and example submissions. |
 | `DATA_DICTIONARY.md` | Field-level documentation for the CSV and the per-submission files. |
 | `LICENSE` | CC BY 4.0. |
+
+The `autograders/` directory documents how submissions were graded and how the
+test-case / natural-language feedback was generated (`feedback_generation.py`,
+`openaiprompt*` files). Problem statements are included as `*_desc.txt`. All
+personal data has been removed: consent records, submission metadata, deployment
+scripts/tokens, and build artifacts are excluded, and any names/emails/Spire IDs
+in code or example submissions are redacted. The feedback code reads the LLM API
+key from the `OPENAI_API_KEY` environment variable (no keys are included).
 
 ## Study design (brief)
 

@@ -1,0 +1,9 @@
+A to-do list contains descriptions of tasks that you need to complete. A to-do list can be modified so you can add new tasks and delete completed tasks. For this reason, the to-do list must be mutable. So we will use the List data type to represent it. In the following, we will use the variable name to_do_list to represent the list object. In Python, we can use to_do_list = [] to create an empty list and assign it to the variable named to_do_list.
+
+As a starting example, the function clear_tasks has been provided to you in the starter code. This function takes a list object as a parameter and calls its clear() method to delete all tasks and make the list empty. You do NOT need to change this function. 
+
+A to-do list should allow the user to add a new task. The first exercise is to implement a function called add_task. This function should take two parameters: a list object representing the to-do list, and a string object representing (the description of) a task. Your function should 
+Add that task to the end of the list.
+Return an acknowledgement, which should be a string formatted exactly as: 
+Task successfully added. N tasks remaining.
+where N is the total number of tasks currently in the to-do list. Your returned string must match the format above exactly -- pay attention to the space characters. Do not include any extra white space characters.

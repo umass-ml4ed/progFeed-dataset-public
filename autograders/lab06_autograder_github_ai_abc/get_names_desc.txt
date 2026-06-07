@@ -1,0 +1,12 @@
+Your first exercise is to write a function called get_names which takes two lists of strings: one representing a list of first names (given names), the other a list of last names (surnames), and the function returns a new list that contains all combinations of first names and last names. For example, if
+first_names = ['Ari', 'Taylor']
+	last_names = ['Levine', 'Lopez', 'Khan', 'Wang']
+Your function should return a new list that contains 8 full names:
+['Ari Levine', 'Ari Lopez', 'Ari Khan', 'Ari Wang', 'Taylor Levine',
+	 'Taylor Lopez', 'Taylor Khan', 'Taylor Wang']
+Specifically, write the function in the same file as before, and it should:
+Take two lists of strings as parameters, one first_names, the other last_names
+Use full_names=[] to create an empty list named full_names. 
+Use nested for loops to iterate over the lists of first names and last names. For each combination of first name and last name, generate the full name, and append that to the full_names list. Each full name must have a space character between the first name and the last name.
+After the loop, return the full_names list.
+Do NOT ask the user for any input. Do NOT print anything in your function.

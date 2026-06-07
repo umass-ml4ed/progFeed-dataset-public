@@ -1,0 +1,8 @@
+You will be implementing three functions in this assignment. For this lab, a triangle is defined by the lengths of its three edges a, b, c, and we assume they are all positive integers and sorted such that a<=b<=c. In general, the three edges certainly don’t have to be integers and don’t need to be sorted, but for this lab, we make these assumptions for simplicity. A triangle can be classified in two ways: by angles and by edge lengths. Your job is to implement a function that classifies triangles based on edge lengths as detailed below, by using if-elif-else statements and boolean expressions.
+
+A triangle can be classified as equilateral, scalene, and isosceles by its edges. An equilateral triangle is one where all three edges are equal; an isosceles triangle has two edges that are equal but not all three; a scalene triangle is one where all three edges are different (i.e. no two edges are equal). 
+However, before checking those conditions, you should first check the validity of the triangle: if the sum of the two shorter edges a+b is less than or equal to the longest edge c, this is invalid as you would not be able to connect the three edges to make a triangle. 
+The control flow diagram on the right shows how the classification is done. It assumes c is the longest edge of the triangle (which is true by our assumption).
+Your task is to write a function, called classify_by_edges, which should:
+Take the three edges a, b, c as parameters
+Return a string representing the triangle class. The string must be one of invalid, equilateral, isosceles and scalene, and it may NOT be anything else. The capitalization doesn’t matter.

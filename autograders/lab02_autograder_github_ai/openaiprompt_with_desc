@@ -1,0 +1,61 @@
+problem:
+Sometimes we want to reorder items in the to-do list so more important or urgent tasks will be moved up and less important ones will be moved down. Here, you will implement a function called move_task. This function should take three parameters -- a list object representing the to-do list, the index of a to-do item that you want to move (we can call this the from_index), and an index where you want it to be moved to (call this the to_index). Please note that in Python, the index of an item in a List starts from 0: i.e., the first item is at index 0, the second is at index 1, and so on. Your function should:
+Move the to-do list item currently at the from_index to the to_index, and ordering of all other items should remain the same as before. You can assume both from_index and to_index are valid, so there will NOT be an out of range error.
+Return an acknowledgement, which should be a string formatted exactly as: 
+Task 'T' successfully moved to index J
+where T is the description of the task surrounded by single quotes ' and J is the index it has been moved to. Note there is no dot at the end of the printout.
+
+
+The student is given this problem and asked to implement the add_task, delete_task, and move_task functions. You can see their code below. If the code is wrong, can you give a test case that would cause the student's code to fail? Only give the test case with the expected output, do not explain why it fails not even as code comments. If you are giving a list, instead of using the variable name, please give the actual list. Please remove any markdown formatting.
+
+Code:
+
+# Author   : REDACTED
+# Email    : REDACTED
+# Spire ID : REDACTED
+
+
+# This is a starting example. You do NOT need to modify this function
+def clear_tasks(list):
+  list.clear()
+
+# Create an empty list
+to_do_list = []
+
+# Below please implement the add_task, delete_task, and move_task functions
+# ----- YOUR CODE STARTS HERE -----
+def add_task(list, task):
+  list.append(task)
+  return list
+
+def delete_task(list, task):
+  if task in list:
+    list.remove(task)
+  return list
+
+def move_task(list, old_index, new_index):
+  task = list.pop(old_index)
+  list.insert(new_index, task)
+  return list
+
+# ===== YOUR CODE ENDS HERE =====
+
+# You can use the code below to help test your functions
+
+# Uncomment the following 5 lines (i.e. remove the # characters on each line) to test add_task
+#print(add_task(to_do_list, 'zybook reading'))
+#print(add_task(to_do_list, 'do laundry'))
+#print(add_task(to_do_list, 'cics110 lab 3'))
+#print(add_task(to_do_list, 'math homework'))
+#print(add_task(to_do_list, 'grocery shopping'))
+
+# Uncomment the following 2 lines (i.e. remove the # characters on each line) to test delete_task
+#print(delete_task(to_do_list, 'zybook reading'))
+#print(delete_task(to_do_list, 'math homework'))
+
+# Uncomment the following 5 lines (i.e. remove the # characters on each line) to test move_task
+#to_do_list = ['zybook reading', 'do laundry', 'cics110 lab 3', 'math homework', 'grocery shopping']
+#print(move_task(to_do_list, 2, 0))
+#print('Current to-do list:', to_do_list, '\n')
+#print(move_task(to_do_list, 1, 4))
+#print('Current to-do list:', to_do_list, '\n')

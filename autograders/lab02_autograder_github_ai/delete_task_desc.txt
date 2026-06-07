@@ -1,0 +1,5 @@
+A to-do list should also allow the user to delete a task once it’s completed. So your second exercise is to implement a function called delete_task. This function should take two parameters: a list object representing the to-do list, and a string object representing (the description of) a task to be deleted. Your function should:
+Delete that task from the list. You can assume that the task exists in the to-do list, and also that there are no duplicates in the to-do list.
+Return an acknowledgement, which should be a string formatted exactly as: 
+Task successfully deleted. N tasks remaining.
+where N is the number of tasks in the to-do list after the removal. 

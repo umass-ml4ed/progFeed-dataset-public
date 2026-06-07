@@ -1,0 +1,11 @@
+Write a function called calc_avg_from_file. It takes no parameters, and its task is to calculate and return the average grade from a text file named grades.txt, which stores the students’ grades, one number per line. For example, grades.txt may have the following content:
+82.5
+93
+77.5
+65
+Your function should read from this file, get all the numbers, calculate, and return the average of them, which is 79.5 in this particular example. Specifically, your function should:
+Open the file named grades.txt in 'r' (read-only) mode.
+Read the entire content of the file into a string. If you opened the file as f, you can do text=f.read() to read the whole content into a string called text. Using the above example, this string will have the following characters: '82.5\n93\n77.5\n65'. Note there is a newline character '\n' after each number (except the last one).
+Split the text into individual grades. Because the numbers are separated by '\n', we can use text.split('\n') to return a list of strings, each representing an individual grade. Using the above example, this will return a list that looks like: ['82.5', '93', '77.5', '65']
+Calculate and return the average grade using this list. Note that this is a list of strings, so to perform arithmetic calculations, you need to cast each string to a float. 
+This function should only read from grades.txt and should NOT write anything to any file.

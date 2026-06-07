@@ -1,0 +1,14 @@
+You will be implementing two functions in this assignment. For this lab, a triangle is defined by the lengths of its three edges a, b, c, and we assume they are all positive integers and sorted such that a<=b<=c. In general, the three edges certainly don’t have to be integers and don’t need to be sorted, but for this lab, we make these assumptions for simplicity. A triangle can be classified in two ways: by angles and by edge lengths. Your job is to implement a function that classifies triangles based on edge lengths as detailed below, by using if-elif-else statements and boolean expressions.
+
+Since we assume the three edges a, b, and c must be sorted, let’s first write a function to check whether this condition is True. Write a function, called is_edge_sorted, which should:
+Take the three edges a, b, c as parameters
+Return boolean True if a<=b and b<=c; otherwise, return boolean False
+Note that the return type of your function must be boolean, it may NOT be a string. Some useful tips:
+For this function, there is no need to use if-else: you can just return a boolean expression
+Python allows you to chain comparison operators, for example, you can write a<=b<=c<=d and that’s equivalent to a<=b and b<=c and c<=d
+
+Below are some examples of running a correct implementation of this function:
+print(is_edge_sorted(3, 4, 5))
+True
+print(is_edge_sorted(3, 5, 3))
+False

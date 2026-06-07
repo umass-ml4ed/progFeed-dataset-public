@@ -1,0 +1,24 @@
+Write a function called print_stars_to_file. It should take an integer n as a parameter (you can assume n>=1), and it should create a text file named stars_n.txt, where n is the actual value of the parameter n. In this text file, it should contain n lines of text:
+the first line is (n-1) leading space characters followed by 1 star character *
+the second line is (n-2) spaces followed by 3 stars
+the third line (n-3) spaces followed by 5 stars
+the fourth line is (n-4) spaces followed by 7 stars
+… …
+the n-th line (last line) has (2*n-1) stars with no leading space character
+For example, calling print_stars_to_file(3) would create a file named stars_3.txt which has the following content:
+  *
+ ***
+*****
+And calling print_stars_to_file(6) would create a file named stars_6.txt which has:
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+Specifically, your function should:
+Open a file named stars_n.txt (where n is the value of the parameter) in 'w' (write-only) mode.
+Write n lines of stars to the file as described on the previous page. The number of leading space characters and stars must match the description exactly. There should be NO trailing space characters at the end of each line.
+It’s ok if your file contains a trailing empty line at the end, as long as that line has no character.
+Do NOT ask the user for any input.
+Do NOT include the function call to this function when you submit.

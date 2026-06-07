@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# https://stackoverflow.com/questions/40082346/how-to-check-if-a-file-exists-in-a-shell-script
+
+while read -r line; do
+  rm -f /autograder/source/$line
+  if [ -e /autograder/submission/$line ]
+  then
+    cp /autograder/submission/$line /autograder/source
+  elif [ -e /autograder/submission/*/$line ]
+  then
+    cp /autograder/submission/*/$line /autograder/source
+  else
+    echo "could not find $line"
+  fi
+done < /autograder/source/files.txt
+
+
+cd /autograder/source
+source env.sh
+python3 run_tests.py
+
+# print results to stdout
+cat /autograder/results/results.json
+
+chmod +x /autograder/source/upload_to_github.sh
+/autograder/source/upload_to_github.sh
+

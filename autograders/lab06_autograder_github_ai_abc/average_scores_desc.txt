@@ -1,0 +1,12 @@
+In this exercise, you will write a function called average_scores that calculates the average grade for each student after applying a lateness penalty. The input is a list of lists, where each inner list represents a student's assignments. Each assignment is represented as a tuple of (grade, lateness). Grades are between 0 and 100 inclusive. For example: 
+[[(90, 0), (80, 1), (70, 2), (60, 3), (50, 4)], [(100, 10), (90, 0), (80, 0), (90, 0)], [(0, 0), (20, 0), (40, 1), (100, 0), (100, 0), (100, 0)]]
+As you can see, it’s a list of lists of tuples: the size of the top-level list is the number of students (so there are 3 students in the example above) where each sub-list contains assignments for a student. Each assignment is represented as a 2-element tuple in a format of (raw grade, lateness). Specifically, your function should:
+Take the input described above as the parameter. 
+Apply the lateness penalty as follows:
+Lateness = 0 → 100% credit (no penalty)
+Lateness = 1 → 90% credit
+Lateness = 2 → 75% credit
+Lateness = 3 → 50% credit
+Lateness ≥ 4 → 0% credit
+Return a list where each element is the average grade of each student after applying penalties.
+Do NOT ask the user for any input. Do NOT print anything in your function. 

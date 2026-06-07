@@ -1,0 +1,12 @@
+Write a function, called is_zigzag, inside the file zigzag.py, which should:
+Take a list of integers as a parameter
+Return True if the list follows a zigzag pattern, and False otherwise
+A list with fewer than 3 elements should return True (since there’s no middle element to violate the rule)
+Definition:
+ A list is zigzag if every element (except the first and last) is either:
+Strictly greater than both its neighbors, or
+Strictly smaller than both its neighbors.
+Important notes:
+The return type must be boolean, not string.
+You must use a for loop to check all middle elements.
+Do not modify the input list.

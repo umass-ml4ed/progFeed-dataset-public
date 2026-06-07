@@ -1,0 +1,5 @@
+Sometimes we want to reorder items in the to-do list so more important or urgent tasks will be moved up and less important ones will be moved down. Here, you will implement a function called move_task. This function should take three parameters -- a list object representing the to-do list, the index of a to-do item that you want to move (we can call this the from_index), and an index where you want it to be moved to (call this the to_index). Please note that in Python, the index of an item in a List starts from 0: i.e., the first item is at index 0, the second is at index 1, and so on. Your function should:
+Move the to-do list item currently at the from_index to the to_index, and ordering of all other items should remain the same as before. You can assume both from_index and to_index are valid, so there will NOT be an out of range error.
+Return an acknowledgement, which should be a string formatted exactly as: 
+Task 'T' successfully moved to index J
+where T is the description of the task surrounded by single quotes ' and J is the index it has been moved to. Note there is no dot at the end of the printout.

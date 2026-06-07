@@ -1,0 +1,5 @@
+Create a new file in VSCode and save/name it for_count.py. Your first exercise is to write a function called count_strings which takes a list of strings and an integer n, and returns how many strings in the list contain at least n characters. Specifically, your function should
+Take a list of strings and an integer n as parameters
+Use a for loop to iterate over the strings and count how many strings have n or more characters (you may use the len() function to calculate the number of characters in a string)
+Return the count
+Do NOT ask the user for any input. Do NOT print anything in your function.
