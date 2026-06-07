@@ -41,3 +41,31 @@ all_labs/<lab>/<student_id>/<submission_timestamp>/
 | `*.py` (and similarly named code files) | The student's submitted source, with author/email/Spire-ID headers redacted. |
 | `results.json` | Gradescope-style autograder output: per-test name, score, max_score, status, and `output` (which includes any delivered AI feedback after the `🤖 AI Feedback for you` marker). |
 | `submission_metadata_pruned.json` | Submission metadata with all personal fields (`name`, `email`, `id`, `sid`, `sections`) redacted; `student_id` injected. |
+
+## `surveys/entry_survey.csv`
+
+Entry (pre-course) survey, consenting students only, keyed by `student_id`
+(n = 182). Timestamp, email, name, and Spire ID removed.
+
+| Column | Description |
+|--------|-------------|
+| `student_id` | Anonymized student ID (joins to `all_labs/` and the consolidated CSV). |
+| `Age (in years)` | Self-reported age. |
+| `Which best describes your gender identity?` | Self-reported gender identity. |
+| `How many semesters have you been studying at UMass?` | Self-reported semesters enrolled (incl. current). |
+| `How do you feel about your existing programming skill…` | Self-rated prior programming experience. |
+| `How confident are you in solving mathematical problems?` | Self-rated math confidence (Likert). |
+| `Which high school courses have you taken… related to computer programming?` | Free-text list of prior CS coursework. |
+
+## `surveys/exit_survey.csv`
+
+Exit (post-course) survey, consenting students only, keyed by `student_id`
+(n = 37). Same PII columns removed.
+
+| Column | Description |
+|--------|-------------|
+| `student_id` | Anonymized student ID. |
+| `How many times have you encountered a generated feedback?` | Self-reported exposure to feedback. |
+| `How helpful were the feedback?` | Perceived helpfulness (Likert). |
+| `How much did you learn from the course because of the feedback?` | Perceived learning gain (Likert). |
+| `Any comments on how we can improve the feedback?` | Free-text comments. |
